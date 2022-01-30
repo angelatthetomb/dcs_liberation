@@ -1,6 +1,6 @@
 {
   "country": "Combined Joint Task Forces Blue",
-  "name": "Bluefor Modern Custom",
+  "name": "Bluefor Modern 2015",
   "authors": "Ape Man",
   "description": "<p>A customized bluefor modern faction. This also includes many redfor units and is meant to be a faction that has access to most modern flyable modules.</p>",
   "aircrafts": [
@@ -22,6 +22,8 @@
     "Eurofighter Typhoon FGR4",
     "C.16 Typhoon",
 	"F-4E Phantom II",
+    "F-4E 2020 Terminator",
+    "F-4E Peace Icarus 2000 UAP",
     "F-15C Eagle",
 	"F-15C Baz-2000",
     "F-15E Strike Eagle",
