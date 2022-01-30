@@ -15,7 +15,7 @@ class CarrierGroupGenerator(ShipGroupGenerator):
 
             self.add_unit(
                 carrier_type,
-                "CVN-75 Harry S. Truman",
+                "CVN-72 Abraham Lincoln",
                 self.position.x,
                 self.position.y,
                 self.heading,
@@ -66,7 +66,7 @@ class CarrierGroupGenerator(ShipGroupGenerator):
             else:
                 self.add_unit(
                     TICONDEROG,
-                    "USS Hué City",
+                    "USS Shiloh",
                     self.position.x - 3333,
                     self.position.y + 2222,
                     self.heading,

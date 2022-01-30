@@ -112,6 +112,7 @@ from dcs.unittype import FlyingType
 from game.ato.flighttype import FlightType
 from game.dcs.aircrafttype import AircraftType
 from pydcs_extensions.a4ec.a4ec import A_4E_C
+from pydcs_extensions.eurofighter.eurofighter import Eurofighter
 from pydcs_extensions.f22a.f22a import F_22A
 from pydcs_extensions.f104.f104 import VSN_F104G, VSN_F104S, VSN_F104S_AG
 from pydcs_extensions.hercules.hercules import Hercules
@@ -138,6 +139,7 @@ CAP_CAPABLE = [
     Su_30,
     Su_27,
     MiG_29S,
+    Eurofighter,
     F_16C_50,
     FA_18C_hornet,
     JF_17,
@@ -189,6 +191,7 @@ CAS_CAPABLE = [
     F_15E,
     F_16C_50,
     FA_18C_hornet,
+    Eurofighter,
     Tornado_GR4,
     Tornado_IDS,
     JAS39Gripen_AG,
@@ -258,6 +261,7 @@ SEAD_CAPABLE = [
     F_16C_50,
     FA_18C_hornet,
     Tornado_IDS,
+    Eurofighter,
     Su_25T,
     Su_25TM,
     F_4E,
@@ -280,6 +284,7 @@ DEAD_CAPABLE = [
     AJS37,
     F_14B,
     F_14A_135_GR,
+    F_15E,
     JAS39Gripen_AG,
     B_1B,
     B_52H,
@@ -318,6 +323,7 @@ STRIKE_CAPABLE = [
     Tornado_GR4,
     F_16C_50,
     FA_18C_hornet,
+    Eurofighter,
     AV8BNA,
     JF_17,
     F_16A,
@@ -409,6 +415,7 @@ RUNWAY_ATTACK_CAPABLE = [
     H_6J,
     F_15E,
     AJS37,
+    Eurofighter,
     F_16C_50,
     FA_18C_hornet,
     AV8BNA,

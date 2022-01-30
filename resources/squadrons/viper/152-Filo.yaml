@@ -1,0 +1,21 @@
+---
+name: 152. Filo
+nickname: Akinci
+country: Turkey
+role: Strike Fighter
+aircraft: F-16C Block 40
+livery: THK_191_Filo
+mission_types:
+  - BAI
+  - BARCAP
+  - CAS
+  - DEAD
+  - Escort
+  - Intercept
+  - OCA/Aircraft
+  - OCA/Runway
+  - SEAD
+  - SEAD Escort
+  - Strike
+  - Fighter sweep
+  - TARCAP

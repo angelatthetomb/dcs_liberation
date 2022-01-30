@@ -104,6 +104,7 @@ class NewGameWizard(QtWidgets.QWizard):
         )
         mod_settings = ModSettings(
             a4_skyhawk=self.field("a4_skyhawk"),
+            eurofighter=self.field("eurofighter"),
             f22_raptor=self.field("f22_raptor"),
             f104_starfighter=self.field("f104_starfighter"),
             hercules=self.field("hercules"),
@@ -561,6 +562,8 @@ class GeneratorOptions(QtWidgets.QWizardPage):
         modSettingsGroup = QtWidgets.QGroupBox("Mod Settings")
         a4_skyhawk = QtWidgets.QCheckBox()
         self.registerField("a4_skyhawk", a4_skyhawk)
+        eurofighter = QtWidgets.QCheckBox()
+        self.registerField("eurofighter", eurofighter)
         hercules = QtWidgets.QCheckBox()
         self.registerField("hercules", hercules)
         f22_raptor = QtWidgets.QCheckBox()
@@ -598,6 +601,8 @@ class GeneratorOptions(QtWidgets.QWizardPage):
         modLayout.addWidget(frenchpack, 7, 1)
         modLayout.addWidget(QtWidgets.QLabel("High Digit SAMs"), 8, 0)
         modLayout.addWidget(high_digit_sams, 8, 1)
+        modLayout.addWidget(QtWidgets.QLabel("Eurofighter Typhoon"), 9, 0)
+        modLayout.addWidget(eurofighter, 9, 1)
         modSettingsGroup.setLayout(modLayout)
 
         mlayout = QVBoxLayout()

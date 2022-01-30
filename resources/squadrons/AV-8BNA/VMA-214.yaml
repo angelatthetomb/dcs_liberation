@@ -8,7 +8,7 @@ bases:
     carrier: false
     shore: true
     lha: true
-livery: VMA-214D
+livery: VMA-214
 mission_types:
   - Anti-ship
   - BAI

@@ -1,0 +1,22 @@
+---
+name: 338 Squadron
+nickname: Ares
+country: Greece
+role: Fighter-Bomber
+aircraft: F-4E Peace Icarus 2000 UAP
+livery: Hellenic Air Force - Aegean Ghost
+mission_types:
+  - Anti-ship
+  - BAI
+  - BARCAP
+  - CAS
+  - DEAD
+  - Escort
+  - Intercept
+  - OCA/Aircraft
+  - OCA/Runway
+  - SEAD
+  - SEAD Escort
+  - Strike
+  - Fighter sweep
+  - TARCAP

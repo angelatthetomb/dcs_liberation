@@ -1,0 +1,10 @@
+---
+name: 190th Squadron
+nickname: The Magic Touch Squadron
+country: Israel
+role: Attack Helicopter
+aircraft: AH-64D Apache Longbow
+livery: ah-64_d_isr
+mission_types:
+  - CAS
+  - BAI

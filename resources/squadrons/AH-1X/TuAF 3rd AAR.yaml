@@ -1,0 +1,11 @@
+---
+name: 3. Army Aviation Regiment
+nickname:
+country: Turkey
+role: Attack Helicopter
+aircraft: AH-1W SuperCobra
+livery: Turkey
+mission_types:
+  - CAS
+  - BAI
+

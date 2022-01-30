@@ -1,0 +1,11 @@
+---
+name: 2/229th Aviation Regiment
+nickname: Killer Spades
+country: USA
+role: Attack Helicopter
+aircraft: AH-64D Apache Longbow
+livery: standard
+mission_types:
+  - CAS
+  - BAI
+  - OCA/Aircraft

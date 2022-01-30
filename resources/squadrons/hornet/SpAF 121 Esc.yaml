@@ -1,0 +1,22 @@
+---
+name: 121 Escuadron
+nickname: "No le busques los tres pies al gato..."
+country: Spain
+role: Strike Fighter
+aircraft: EF-18A+ Hornet
+livery: Spain 121th Escuadron C.15-34 34th Anniversary
+mission_types:
+  - Anti-ship
+  - BAI
+  - BARCAP
+  - CAS
+  - DEAD
+  - Escort
+  - Intercept
+  - OCA/Aircraft
+  - OCA/Runway
+  - SEAD
+  - SEAD Escort
+  - Strike
+  - Fighter sweep
+  - TARCAP

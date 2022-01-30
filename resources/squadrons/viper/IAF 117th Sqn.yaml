@@ -3,7 +3,7 @@ name: 117th Squadron
 nickname: First Jet
 country: Israel
 role: Strike Fighter
-aircraft: F-16CM Fighting Falcon (Block 50)
+aircraft: F-16C Barak
 livery: IAF_117th_Squadron
 mission_types:
   - BAI

@@ -1,0 +1,14 @@
+---
+name: 23rd BS
+nickname: Barons
+country: USA
+role: Strategic Bomber
+aircraft: B-52H
+livery: 
+mission_types:
+  - BAI
+  - DEAD
+  - OCA/Aircraft
+  - OCA/Runway
+  - Strike
+

@@ -1,0 +1,9 @@
+---
+name: Flying Squadron 1
+nickname: Vikings
+country: NATO
+role: AEW&C
+aircraft: E-3A
+livery: nato
+mission_types:
+  - AEW&C

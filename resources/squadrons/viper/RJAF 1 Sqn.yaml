@@ -1,0 +1,21 @@
+---
+name: 1st Squadron
+nickname: 
+country: Jordan
+role: Strike Fighter
+aircraft: F-16A Block 20 MLU
+livery: RJAF
+mission_types:
+  - BAI
+  - BARCAP
+  - CAS
+  - DEAD
+  - Escort
+  - Intercept
+  - OCA/Aircraft
+  - OCA/Runway
+  - SEAD
+  - SEAD Escort
+  - Strike
+  - Fighter sweep
+  - TARCAP

@@ -3,7 +3,7 @@ name: 106th Squadron
 nickname: Spearhead
 country: Israel
 role: Air Superiority Fighter
-aircraft: F-15C Eagle
+aircraft: F-15C Baz-2000
 livery: 106th SQN (8th Airbase)
 mission_types:
   - BARCAP

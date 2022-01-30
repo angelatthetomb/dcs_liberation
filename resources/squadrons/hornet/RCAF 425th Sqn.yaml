@@ -1,0 +1,22 @@
+---
+name: 425th Squadron
+nickname: Alouette Squadron
+country: Canada
+role: Strike Fighter
+aircraft: CF-188 Hornet
+livery: Canada 425th Squadron
+mission_types:
+  - Anti-ship
+  - BAI
+  - BARCAP
+  - CAS
+  - DEAD
+  - Escort
+  - Intercept
+  - OCA/Aircraft
+  - OCA/Runway
+  - SEAD
+  - SEAD Escort
+  - Strike
+  - Fighter sweep
+  - TARCAP
