@@ -51,7 +51,7 @@ from pydcs_extensions.jas39.jas39 import JAS39Gripen, JAS39Gripen_AG
 from pydcs_extensions.su57.su57 import Su_57
 
 plane_map["A-4E-C"] = A_4E_C
-plane_map["Eurofighter Typhoon"] = Eurofighter
+plane_map["Eurofighter"] = Eurofighter
 plane_map["F-22A"] = F_22A
 plane_map["Su-57"] = Su_57
 plane_map["Hercules"] = Hercules
