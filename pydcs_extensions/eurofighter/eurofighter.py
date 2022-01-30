@@ -533,7 +533,7 @@ class Eurofighter(PlaneType):
         Smokewinder___yellow = (13, Weapons.Smokewinder___yellow)
         Smokewinder___orange = (13, Weapons.Smokewinder___orange)
 
-    pylons: Set[int] = {1, 13, 12, 11, 2, 3, 4, 10, 5, 6, 9, 8, 7}
+    pylons = {1, 13, 12, 11, 2, 3, 4, 10, 5, 6, 9, 8, 7}
 
     tasks = [
         task.CAP,
