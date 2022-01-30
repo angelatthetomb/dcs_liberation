@@ -26,7 +26,7 @@ inject_weapons(EurofighterWeapons)
 
 
 class Eurofighter(PlaneType):
-    id = "Eurofighter Typhoon"
+    id = "Eurofighter"
     flyable = True
     height = 5.29
     width = 10.94
