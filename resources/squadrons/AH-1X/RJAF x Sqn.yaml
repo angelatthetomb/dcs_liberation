@@ -1,0 +1,11 @@
+---
+name: x Squadron
+nickname: x
+country: Jordan
+role: Attack Helicopter
+aircraft: AH-1G Tzefa
+livery: Turkey 2
+mission_types:
+  - CAS
+  - BAI
+

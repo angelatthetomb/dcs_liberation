@@ -40,10 +40,12 @@ fuel:
   min_safe: 1000
 variants:
   F-16CM Fighting Falcon (Block 50): {}
+  F-16A Block 15 MLU: {}
   F-16A Block 20 MLU: {}
   F-16C Block 40: {}
   F-2A: {}
   F-16C Barak: {}
+  F-16CM Fighting Falcon (Block 52): {}
 radios:
   intra_flight: AN/ARC-222
   inter_flight: AN/ARC-164

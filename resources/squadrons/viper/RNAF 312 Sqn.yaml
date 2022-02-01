@@ -3,7 +3,7 @@ name: 312th Squadron
 nickname: Bonzo
 country: The Netherlands
 role: Strike Fighter
-aircraft: F-16A Block 20 MLU
+aircraft: F-16A Block 15 MLU
 livery: KLU J-637 12 SQN BONZO
 mission_types:
   - BAI

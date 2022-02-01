@@ -3,8 +3,8 @@ name: 113th Squadron
 nickname: The Hornet Squadron
 country: Israel
 role: Attack Helicopter
-aircraft: AH-64D Apache Longbow
-livery: standard
+aircraft: AH-64D-I Apache Longbow
+livery: ah-64_d_isr
 mission_types:
   - CAS
   - BAI

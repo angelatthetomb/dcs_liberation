@@ -33,10 +33,22 @@ squadrons:
       secondary: any
       aircraft:
         - F-16CM Fighting Falcon (Block 50)
-    - primary: Strike
+    - primary: OCA/Runway
       secondary: any
       aircraft:
         - F-16CM Fighting Falcon (Block 50)
+    - primary: SEAD
+      secondary: any
+      aircraft:
+        - F-16CM Fighting Falcon (Block 50)
+    - primary: DEAD
+      secondary: any
+      aircraft:
+        - F-16CM Fighting Falcon (Block 50)
+    - primary: Strike
+      secondary: any
+      aircraft:
+        - F-16A Block 15 MLU
     - primary: SEAD
       secondary: any
       aircraft:
@@ -57,11 +69,43 @@ squadrons:
       secondary: air-to-air
       aircraft:
         - F-15C Eagle
-    - primary: BARCAP
+    - primary: Fighter sweep
+      secondary: air-to-air
+      aircraft:
+        - F-15C Eagle
+    - primary: Fighter sweep
       secondary: air-to-air
       aircraft:
         - F-22A Raptor
+    - primary: SEAD
+      secondary: any
+      aircraft:
+        - Eurofighter Typhoon
+    - primary: DEAD
+      secondary: any
+      aircraft:
+        - Eurofighter Typhoon
+    - primary: Fighter sweep
+      secondary: any
+      aircraft:
+        - Eurofighter Typhoon
+    - primary: BARCAP
+      secondary: any
+      aircraft:
+        - Eurofighter Typhoon
     - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - AH-64D Apache Longbow
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - AH-64D Apache Longbow
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - AH-64D Apache Longbow
+    - primary: CAS
       secondary: air-to-ground
       aircraft:
         - AH-64D Apache Longbow
@@ -81,17 +125,7 @@ squadrons:
       secondary: any
       aircraft:
         - Mirage 2000C
-
-        # F-4E 2020 Terminator
-        # F-16C Block 40x2
-        # Eurofighter Typhoonx4 german
-
   # Akrotiri
-    #Eurofighter FGR4x2
-    #Tornado GR4x2
-    #EF-18a+
-    #C.16 Typhoon
-    # CF-188 Hornet
   44:
     - primary: AEW&C
       aircraft:
@@ -127,10 +161,15 @@ squadrons:
       secondary: any
       aircraft:
         - CF-188 Hornet
-
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - AV-8B Harrier II Night Attack
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - AV-8B Harrier II Night Attack
 #Paphos
-  #Mirage 2000-5 Mk II
-  #F-16CM Fighting Falcon (Block 50)x4
   46:
     - primary: BAI
       secondary: air-to-ground
@@ -147,28 +186,19 @@ squadrons:
     - primary: Strike
       secondary: any
       aircraft:
-        - F-16CM Fighting Falcon (Block 50)
+        - F-16CM Fighting Falcon (Block 52)
     - primary: Strike
       secondary: any
       aircraft:
-        - F-16CM Fighting Falcon (Block 50)
+        - F-16CM Fighting Falcon (Block 52)
     - primary: BARCAP
       secondary: any
       aircraft:
-        - F-16CM Fighting Falcon (Block 50)
+        - F-16CM Fighting Falcon (Block 52)
     - primary: Strike
       secondary: any
       aircraft:
-        - F-16CM Fighting Falcon (Block 50)
-    - primary: BARCAP
-      secondary: any
-      aircraft:
-        - F-16CM Fighting Falcon (Block 50)
-    - primary: Strike
-      secondary: any
-      aircraft:
-        - F-16CM Fighting Falcon (Block 50)
-
+        - F-16CM Fighting Falcon (Block 52)
   # Gaziantep
   11:
     - primary: CAS
@@ -320,12 +350,27 @@ squadrons:
       secondary: air-to-ground
       aircraft:
         - Mi-8MTV2 Hip
+  #Tha'lah
+  ?
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - Mi-24P Hind-F
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - Mi-24P Hind-F
+
   # King Hussein Air College
   19:
     - primary: BAI
       secondary: air-to-air
       aircraft:
         - F-16A Block 20 MLU
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - AH-1G Tzefa
   # Ramat David
   30:
     - primary: BARCAP
@@ -351,12 +396,38 @@ squadrons:
     - primary: CAS
       secondary: air-to-ground
       aircraft:
-        - AH-64D
+        - AH-64D-I Apache Longbow
   #Haifa
+  ?
     - primary: CAS
       secondary: air-to-ground
       aircraft:
         - SA 342L Gazelle
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - AH-64D-I Apache Longbow
+  #H4
+  ?
+    - primary: BAI
+      secondary: air-to-air
+      aircraft:
+        - F-16A Block 20 MLU
+    - primary: Fighter sweep
+      secondary: air-to-air
+      aircraft:
+        - F-22A Raptor
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - F-15C Eagle
+    - primary: Fighter sweep
+      secondary: air-to-air
+      aircraft:
+        - F-15C Eagle
+    - primary: AEW&C
+      aircraft:
+        - E-3A
         
   Blue CV:
     - primary: BARCAP
@@ -390,4 +461,8 @@ squadrons:
       secondary: air-to-ground
       aircraft:
         - AH-1W
+    - primary: Transport
+      secondary: air-to-ground
+      aircraft:
+        - UH-1H Iroquois
 

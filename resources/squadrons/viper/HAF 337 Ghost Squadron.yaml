@@ -3,7 +3,7 @@ name: 337 Squadron
 nickname: Ghost
 country: Greece
 role: Multirole Fighter
-aircraft: F-16CM Fighting Falcon (Block 50)
+aircraft: F-16CM Fighting Falcon (Block 52)
 livery: HAF_337_Ghost
 mission_types:
   - BAI

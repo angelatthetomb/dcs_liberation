@@ -3,7 +3,7 @@ name: 191. Filo
 nickname: Kobra
 country: Turkey
 role: Strike Fighter
-aircraft: F-16CM Fighting Falcon (Block 50)
+aircraft: F-16C Block 40
 livery: THK_191_Filo
 mission_types:
   - BAI
