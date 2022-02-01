@@ -1,0 +1,19 @@
+---
+name: 826th Squadron
+nickname: 826th
+country: Syria
+role: Air Superiority Fighter
+aircraft: Su-27SKM Flanker-B
+livery: "Algerian AF Blue 02"
+mission_types:
+  - BARCAP
+  - TARCAP
+  - Escort
+  - Intercept
+  - Fighter sweep
+  - TARCAP
+  - BAI
+  - CAS
+  - Strike
+
+#Al-Qusayr

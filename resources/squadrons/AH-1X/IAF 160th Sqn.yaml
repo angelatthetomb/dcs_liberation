@@ -3,7 +3,7 @@ name: 160th Squadron
 nickname: Northern Cobra Squadron
 country: Israel
 role: Attack Helicopter
-aircraft: AH-1W SuperCobra
+aircraft: AH-1G Tzefa
 livery: ah-64_d_isr
 mission_types:
   - CAS

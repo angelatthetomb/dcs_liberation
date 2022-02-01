@@ -1,0 +1,16 @@
+---
+name: 1st Squadron
+nickname: 5th
+country: Syria
+role: Long-range Reconnaissance
+aircraft: MiG-25RBT Foxbat-B
+livery: "af standard"
+mission_types:
+  - BARCAP
+  - TARCAP
+  - Escort
+  - Intercept
+  - Fighter sweep
+  - TARCAP
+
+#Tiyas

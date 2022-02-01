@@ -1,0 +1,17 @@
+---
+name: 177th Aviation Regiment
+nickname: 177th
+country: Russia
+role: Air Superiority Fighter
+aircraft: Su-27SM3 Flanker-B Mod. 3
+livery: "Lodeynoye pole AFB (177 IAP)"
+mission_types:
+  - BARCAP
+  - TARCAP
+  - Escort
+  - Intercept
+  - Fighter sweep
+  - TARCAP
+  - BAI
+  - CAS
+  - Strike

@@ -1,0 +1,17 @@
+---
+name: 689th Guards Aviation Regiment
+nickname: 689th
+country: Russia
+role: Air Superiority Fighter
+aircraft: Su-27SM Flanker-B Mod. 1
+livery: "Chkalovsk AFB (689 GvIAP)"
+mission_types:
+  - BARCAP
+  - TARCAP
+  - Escort
+  - Intercept
+  - Fighter sweep
+  - TARCAP
+  - BAI
+  - CAS
+  - Strike

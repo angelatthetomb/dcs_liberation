@@ -15,4 +15,4 @@ price: 45
 role: Supersonic Strategic Bomber
 max_range: 2000
 variants:
-  Tu-160 Blackjack: {}
+  Tu-160M Blackjack: {}

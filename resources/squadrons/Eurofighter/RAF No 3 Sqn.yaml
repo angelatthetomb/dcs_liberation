@@ -3,7 +3,7 @@ name: No. 3 Squadron RAF
 nickname: "Tertius primus erit"
 country: UK
 role: Strike Fighter
-aircraft: Eurofighter Typhoon
+aircraft: Eurofighter Typhoon FGR4
 livery: RAF 1435 Flt Falklands
 mission_types:
   - BAI

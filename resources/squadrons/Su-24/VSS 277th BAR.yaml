@@ -1,0 +1,17 @@
+---
+name: 277th Bomber Aviation Regiment
+nickname: 277th
+country: Russia
+role: Bomber
+aircraft: Su-24M2 Fencer-D
+livery: "af standard"
+mission_types:
+  - BAI
+  - CAS
+  - DEAD
+  - SEAD
+  - OCA/Aircraft
+  - OCA/Runway
+  - Strike
+
+#Khm

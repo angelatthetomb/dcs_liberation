@@ -12,6 +12,7 @@ role: Multirole Fighter
 max_range: 300
 variants:
   Su-30 Flanker-C: {}
+  Su-30SM Flanker-H: {}
   Su-30MKK Flanker-G:
     introduced: 2000
     manufacturer: Sukhoi

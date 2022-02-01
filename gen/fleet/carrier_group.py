@@ -66,7 +66,7 @@ class CarrierGroupGenerator(ShipGroupGenerator):
             else:
                 self.add_unit(
                     TICONDEROG,
-                    "USS Shiloh",
+                    "USS Hué City",
                     self.position.x - 3333,
                     self.position.y + 2222,
                     self.heading,

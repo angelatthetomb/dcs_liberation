@@ -1,0 +1,16 @@
+---
+name: 2nd Guards Bomber Regiment
+nickname: 2nd
+country: Russia
+role: Fighter-Bomber
+aircraft: Su-34 Fullback
+livery: 1 Russian Air Force
+mission_types:
+  - BAI
+  - CAS
+  - SEAD
+  - DEAD
+  - OCA/Aircraft
+  - OCA/Runway
+  - Strike
+

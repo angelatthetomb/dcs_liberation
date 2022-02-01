@@ -1,0 +1,16 @@
+---
+name: 54th Squadron
+nickname: 54th
+country: Syria
+role: Air Superiority Fighter
+aircraft: MiG-23ML Flogger-G
+livery: "af standard-3 (worn-out)"
+mission_types:
+  - BARCAP
+  - TARCAP
+  - Escort
+  - Intercept
+  - Fighter sweep
+  - TARCAP
+
+#Marj

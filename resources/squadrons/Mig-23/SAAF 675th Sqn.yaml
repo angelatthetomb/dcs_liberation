@@ -1,0 +1,16 @@
+---
+name: 675th Squadron
+nickname: 675th
+country: Syria
+role: Air Superiority Fighter
+aircraft: MiG-23MF Flogger-B
+livery: "af standard-3 (worn-out)"
+mission_types:
+  - BARCAP
+  - TARCAP
+  - Escort
+  - Intercept
+  - Fighter sweep
+  - TARCAP
+
+#Shayrat

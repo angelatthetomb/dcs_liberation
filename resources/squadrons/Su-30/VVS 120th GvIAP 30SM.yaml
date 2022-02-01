@@ -1,0 +1,17 @@
+---
+name: 120th Guards Independent Aviation Regiment
+nickname: 120th
+country: Russia
+role: Air Superiority Fighter
+aircraft: Su-30SM Flanker-H
+livery: "af standard"
+mission_types:
+  - BARCAP
+  - TARCAP
+  - Escort
+  - Intercept
+  - Fighter sweep
+  - TARCAP
+  - BAI
+  - CAS
+  - Strike

@@ -1,0 +1,13 @@
+---
+name: 200th Guards Heavy Bombardment Aviation Regiment
+nickname: "Brest Red"
+country: Russia
+role: Supersonic Strategic Bomber
+aircraft: Tu-22M3 Backfire-C
+livery: af standard
+mission_types:
+  - Strike
+  - OCA/Aircraft
+  - OCA/Runway
+  - BAI
+  - DEAD

@@ -17,4 +17,7 @@ role: Air-Superiority Fighter
 max_range: 300
 variants:
   Su-27 Flanker-B: {}
+  Su-27SM Flanker-B Mod. 1: {}
+  Su-27SM3 Flanker-B Mod. 3: {}
+  Su-27SKM Flanker-B: {}
 kneeboard_units: "metric"

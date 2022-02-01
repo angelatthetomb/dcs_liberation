@@ -19,6 +19,7 @@ variants:
     manufacturer: Chengdu
     origin: China
   MiG-21bis Fishbed-N: {}
+  MiG-21MF Fishbed-J: {}
 radios:
   intra_flight: RSIU-5V
   inter_flight: RSIU-5V
