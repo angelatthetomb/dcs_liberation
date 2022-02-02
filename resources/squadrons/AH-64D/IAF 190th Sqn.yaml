@@ -3,7 +3,7 @@ name: 190th Squadron
 nickname: The Magic Touch Squadron
 country: Israel
 role: Attack Helicopter
-aircraft: AH-64D-I Apache Longbow
+aircraft: AH-64D Saraph
 livery: ah-64_d_isr
 mission_types:
   - CAS

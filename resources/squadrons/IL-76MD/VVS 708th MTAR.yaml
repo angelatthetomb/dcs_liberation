@@ -1,0 +1,9 @@
+---
+name: 708th Military Transport Aviation Regiment
+nickname:
+country: Russia
+role: Strategic Airlift
+aircraft: IL-76MD-M
+livery: RF Air Force
+mission_types:
+  - Transport

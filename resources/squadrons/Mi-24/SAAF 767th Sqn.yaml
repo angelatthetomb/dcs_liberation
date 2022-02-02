@@ -3,7 +3,7 @@ name: 767th Squadron
 nickname: 767th
 country: Syria
 role: Attack Helicopter
-aircraft: Mi-24P Hind-D
+aircraft: Mi-24P Hind-F
 livery: "SyAAF"
 mission_types:
   - CAS

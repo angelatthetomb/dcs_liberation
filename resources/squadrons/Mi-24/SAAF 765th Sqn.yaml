@@ -3,7 +3,7 @@ name: 765th Squadron
 nickname: 765th
 country: Syria
 role: Attack Helicopter
-aircraft: Mi-24P Hind-F
+aircraft: Mi-35 Hind-E
 livery: "SyAAF"
 mission_types:
   - CAS

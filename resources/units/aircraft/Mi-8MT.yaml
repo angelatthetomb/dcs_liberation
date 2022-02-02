@@ -10,4 +10,5 @@ price: 5
 role: Transport/Light Attack
 variants:
   Mi-8MTV2 Hip: {}
+  Mi-8MTV5 Hip: {}
 kneeboard_units: "metric"

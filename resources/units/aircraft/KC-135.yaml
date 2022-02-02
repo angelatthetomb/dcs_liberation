@@ -15,3 +15,5 @@ patrol:
   altitude: 24000
 variants:
   KC-135 Stratotanker: {}
+  KC-135R Stratotanker: {}
+  KC-135R Asena: {}
