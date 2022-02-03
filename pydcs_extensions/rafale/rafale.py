@@ -39,6 +39,8 @@ class RafaleWeapons:
         "name": "AASM_250_RIGHT",
         "weight": 250,
     }
+    AASM_250_R = {"clsid": "{AASM_250_R}", "name": "AASM_250_R", "weight": 500}
+    AASM_250 = {"clsid": "{AASM_250}", "name": "AASM_250", "weight": 250}
 
 
 inject_weapons(RafaleWeapons)
