@@ -565,7 +565,7 @@ squadrons:
     - primary: CAS
       secondary: air-to-ground
       aircraft:
-        - AH-64D-I Apache Longbow
+        - AH-64D Saraph
   #Haifa
   13:
     - primary: CAS
@@ -637,13 +637,3 @@ squadrons:
       secondary: air-to-ground
       aircraft:
         - UH-1H Iroquois
-
-  Red CV:
-    - primary: BARCAP
-      secondary: air-to-air
-      aircraft:
-        - Su-33 Flanker-D
-    - primary: Strike
-      secondary: air-to-ground
-      aircraft:
-        - Su-33 Flanker-D
