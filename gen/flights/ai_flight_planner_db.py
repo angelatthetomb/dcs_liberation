@@ -117,6 +117,7 @@ from pydcs_extensions.f22a.f22a import F_22A
 from pydcs_extensions.f104.f104 import VSN_F104G, VSN_F104S, VSN_F104S_AG
 from pydcs_extensions.hercules.hercules import Hercules
 from pydcs_extensions.jas39.jas39 import JAS39Gripen, JAS39Gripen_AG
+from pydcs_extensions.rafale.rafale import Rafale_B, Rafale_C
 from pydcs_extensions.su57.su57 import Su_57
 
 # All aircraft lists are in priority order. Aircraft higher in the list will be
@@ -134,6 +135,7 @@ CAP_CAPABLE = [
     F_14B,
     F_14A_135_GR,
     F_14A,
+    Rafale_C,
     Su_33,
     J_11A,
     Su_30,
@@ -189,6 +191,7 @@ CAS_CAPABLE = [
     Su_25T,
     Su_25,
     F_15E,
+    Rafale_B,
     F_16C_50,
     FA_18C_hornet,
     Eurofighter,
@@ -276,6 +279,7 @@ SEAD_CAPABLE = [
     Su_30,
     MiG_27K,
     Tornado_GR4,
+    Rafale_B,
 ]
 
 
@@ -285,6 +289,7 @@ DEAD_CAPABLE = [
     F_14B,
     F_14A_135_GR,
     F_15E,
+    Rafale_C,
     JAS39Gripen_AG,
     B_1B,
     B_52H,
@@ -324,6 +329,7 @@ STRIKE_CAPABLE = [
     F_16C_50,
     FA_18C_hornet,
     Eurofighter,
+    Rafale_B,
     AV8BNA,
     JF_17,
     F_16A,
@@ -343,6 +349,7 @@ STRIKE_CAPABLE = [
     MiG_29S,
     MiG_29G,
     MiG_29A,
+    Rafale_C,
     F_4E,
     A_10C_2,
     A_10C,
@@ -418,6 +425,8 @@ RUNWAY_ATTACK_CAPABLE = [
     Eurofighter,
     F_16C_50,
     FA_18C_hornet,
+    Rafale_B,
+    Rafale_C,
     AV8BNA,
     JF_17,
     F_16A,

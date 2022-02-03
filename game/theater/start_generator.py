@@ -74,6 +74,7 @@ class ModSettings:
     f104_starfighter: bool = False
     hercules: bool = False
     jas39_gripen: bool = False
+    rafale: bool = False
     su57_felon: bool = False
     frenchpack: bool = False
     high_digit_sams: bool = False

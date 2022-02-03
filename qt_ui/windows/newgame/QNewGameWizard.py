@@ -109,6 +109,7 @@ class NewGameWizard(QtWidgets.QWizard):
             f104_starfighter=self.field("f104_starfighter"),
             hercules=self.field("hercules"),
             jas39_gripen=self.field("jas39_gripen"),
+            rafale=self.field("rafale"),
             su57_felon=self.field("su57_felon"),
             frenchpack=self.field("frenchpack"),
             high_digit_sams=self.field("high_digit_sams"),
@@ -572,6 +573,8 @@ class GeneratorOptions(QtWidgets.QWizardPage):
         self.registerField("f104_starfighter", f104_starfighter)
         jas39_gripen = QtWidgets.QCheckBox()
         self.registerField("jas39_gripen", jas39_gripen)
+        rafale = QtWidgets.QCheckBox()
+        self.registerField("rafale", rafale)
         su57_felon = QtWidgets.QCheckBox()
         self.registerField("su57_felon", su57_felon)
         frenchpack = QtWidgets.QCheckBox()
@@ -603,6 +606,8 @@ class GeneratorOptions(QtWidgets.QWizardPage):
         modLayout.addWidget(high_digit_sams, 8, 1)
         modLayout.addWidget(QtWidgets.QLabel("Eurofighter Typhoon"), 9, 0)
         modLayout.addWidget(eurofighter, 9, 1)
+        modLayout.addWidget(QtWidgets.QLabel("Rafale"), 10, 0)
+        modLayout.addWidget(rafale, 10, 1)
         modSettingsGroup.setLayout(modLayout)
 
         mlayout = QVBoxLayout()

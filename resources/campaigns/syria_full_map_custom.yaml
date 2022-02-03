@@ -61,10 +61,6 @@ squadrons:
       secondary: any
       aircraft:
         - F-16C Block 40
-    - primary: OCA/Runway
-      secondary: any
-      aircraft:
-        - F-16C Block 40
     - primary: BAI
       secondary: air-to-ground
       aircraft:
@@ -105,6 +101,22 @@ squadrons:
       secondary: any
       aircraft:
         - Eurofighter Typhoon
+    - primary: BARCAP
+      secondary: any
+      aircraft:
+        - Rafale C
+    - primary: Fighter sweep
+      secondary: any
+      aircraft:
+        - Rafale C
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Rafale B
+    - primary: Strike
+      secondary: air-to-ground
+      aircraft:
+        - Rafale B
     - primary: BAI
       secondary: air-to-ground
       aircraft:
@@ -133,10 +145,6 @@ squadrons:
       secondary: air-to-ground
       aircraft:
         - B-1B Lancer
-    - primary: BARCAP
-      secondary: any
-      aircraft:
-        - Mirage 2000C
   # Akrotiri
   44:
     - primary: AEW&C
@@ -191,6 +199,10 @@ squadrons:
       secondary: air-to-ground
       aircraft:
         - F-4E Peace Icarus 2000 UAP
+    - primary: BARCAP
+      secondary: any
+      aircraft:
+        - Mirage 2000C
     - primary: Strike
       secondary: any
       aircraft:
