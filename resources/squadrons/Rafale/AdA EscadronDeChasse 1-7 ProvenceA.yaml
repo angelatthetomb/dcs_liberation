@@ -2,7 +2,7 @@
 name: Escadron de chasse 1/7 det. A
 nickname: Provence
 country: France
-role: Omni-role
+role: Strike Fighter
 aircraft: Rafale B
 livery: "02 RAFALE B MT DE MARSAN"
 mission_types:

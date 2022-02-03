@@ -4,6 +4,6 @@ nickname: La quatre
 country: USA
 role: AEW&C
 aircraft: E-2C Hawkeye
-livery: French Navy
+livery: "French Navy"
 mission_types:
   - AEW&C

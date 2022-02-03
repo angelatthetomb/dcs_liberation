@@ -2,7 +2,7 @@
 name: Escadron de chasse 2/4
 nickname: LaFayette
 country: France
-role: Omni-role
+role: Strike Fighter
 aircraft: Rafale B
 livery: "02 RAFALE B LAFAYETTE"
 mission_types:

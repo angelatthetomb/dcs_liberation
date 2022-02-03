@@ -2,21 +2,16 @@
 name: 111. Filo
 nickname: Panther
 country: Turkey
-role: Air Superiority Fighter
+role: Strike Fighter
 aircraft: F-4E 2020 Terminator
 livery:
 mission_types:
   - Anti-ship
   - BAI
-  - BARCAP
   - CAS
   - DEAD
-  - Escort
-  - Intercept
   - OCA/Aircraft
   - OCA/Runway
   - SEAD
   - SEAD Escort
   - Strike
-  - Fighter sweep
-  - TARCAP

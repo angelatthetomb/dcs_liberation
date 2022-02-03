@@ -4,7 +4,7 @@ nickname: Alouette Squadron
 country: Canada
 role: Strike Fighter
 aircraft: CF-188 Hornet
-livery: Canada 425th Squadron
+livery: "Canada 425th Squadron"
 mission_types:
   - Anti-ship
   - BAI

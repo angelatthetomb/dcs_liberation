@@ -239,10 +239,10 @@ squadrons:
         - F-4E 2020 Terminator
   # Hatay
   15:
-    - primary: CAS
+    - primary: Transport
       secondary: air-to-ground
       aircraft:
-        - Mi-24P Hind-F
+        - Mi-8MTV2 Hip
   #Kuweires
   31:
     - primary: CAS
@@ -271,7 +271,7 @@ squadrons:
     - primary: CAS
       secondary: air-to-ground
       aircraft:
-        - SA 342L Gazelle
+        - SA 342K Gazelle
     - primary: Transport
       secondary: air-to-ground
       aircraft:
@@ -303,7 +303,7 @@ squadrons:
     - primary: BARCAP
       secondary: air-to-air
       aircraft:
-        - Su-27SM3 Flanker-B Mod. 3
+        - Su-27SM3 Flanker-B Mod. 1
     - primary: Fighter sweep
       secondary: air-to-air
       aircraft:
@@ -381,7 +381,7 @@ squadrons:
       secondary: air-to-air
       aircraft:
         - MiG-25PD Foxbat-E
-    - primary: Intercept
+    - primary: Fighter sweep
       secondary: air-to-air
       aircraft:
         - MiG-25RBT Foxbat-B
@@ -396,11 +396,11 @@ squadrons:
     - primary: CAS
       secondary: air-to-ground
       aircraft:
-        - SA 342L Gazelle
+        - SA 342K Gazelle
     - primary: CAS
       secondary: air-to-ground
       aircraft:
-        - SA 342L Gazelle
+        - SA 342K Gazelle
   # Palmyra
   28:
     - primary: BARCAP
@@ -410,7 +410,7 @@ squadrons:
     - primary: CAS
       secondary: air-to-ground
       aircraft:
-        - SA 342L Gazelle
+        - SA 342K Gazelle
   # Rayak
   32:
     - primary: BARCAP
@@ -442,10 +442,6 @@ squadrons:
       secondary: air-to-ground
       aircraft:
         - Su-22M2 Fitter-J
-    - primary: CAS
-      secondary: air-to-ground
-      aircraft:
-        - Su-22M2 Fitter-J
     - primary: Transport
       secondary: air-to-ground
       aircraft:
@@ -468,10 +464,6 @@ squadrons:
       secondary: air-to-air
       aircraft:
         - MiG-21bis Fishbed-N
-    - primary: Transport
-      secondary: air-to-ground
-      aircraft:
-        - Mi-8MTV2 Hip
   # Damascus
   7:
     - primary: AEW&C
@@ -499,10 +491,6 @@ squadrons:
       secondary: air-to-ground
       aircraft:
         - Mi-8MTV2 Hip
-    - primary: CAS
-      secondary: air-to-ground
-      aircraft:
-        - Mi-24P Hind-F
   #Mezzeh
   25:
     - primary: Transport
@@ -512,11 +500,11 @@ squadrons:
     - primary: CAS
       secondary: air-to-ground
       aircraft:
-        - SA 342L Gazelle
+        - SA 342K Gazelle
     - primary: CAS
       secondary: air-to-ground
       aircraft:
-        - SA 342L Gazelle
+        - SA 342K Gazelle
   #Khalkhalah
   18:
     - primary: BARCAP

@@ -2,7 +2,7 @@
 name: Escadron de chasse 3/30
 nickname: Lorraine
 country: France
-role: Omni-role
+role: Strike Fighter
 aircraft: Rafale C
 livery: "02 RAFALE C MT DE MARSAN"
 mission_types:

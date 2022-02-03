@@ -1,0 +1,11 @@
+---
+name: 17th Army Aviation Brigade
+nickname:
+country: Russia
+role: Attack Helicopter
+aircraft: Ka-50 Hokum
+livery: "Army Standard"
+mission_types:
+  - BAI
+  - CAS
+
