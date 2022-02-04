@@ -3,7 +3,7 @@ name: 19th Fighter Squadron
 nickname: Gamecocks
 country: USA
 role: Air Superiority Fighter
-aircraft: F-22A
+aircraft: F-22A Raptor
 livery: 154 WG
 mission_types:
   - BARCAP

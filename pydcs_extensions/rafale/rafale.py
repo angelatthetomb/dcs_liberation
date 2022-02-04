@@ -2922,4 +2922,4 @@ class Rafale_C(PlaneType):
         task.Reconnaissance,
         task.Intercept,
     ]
-    task_default = task.CAP
+    task_default = task.GroundAttack

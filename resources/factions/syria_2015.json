@@ -81,7 +81,7 @@
     "Paratrooper RPG-16"
   ],
   "air_defenses": [
-    "ColdWarFlakGenerator",
+    "LateColdWarFlakGenerator",
     "SA2Generator",
     "SA3Generator",
     "SA5Generator",

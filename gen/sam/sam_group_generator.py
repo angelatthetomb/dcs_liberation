@@ -20,6 +20,7 @@ from gen.sam.airdefensegroupgenerator import (
 from gen.sam.cold_war_flak import (
     ColdWarFlakGenerator,
     EarlyColdWarFlakGenerator,
+    LateColdWarFlakGenerator,
 )
 from gen.sam.freya_ewr import FreyaGenerator
 from gen.sam.sam_avenger import AvengerGenerator
@@ -94,6 +95,7 @@ SAM_MAP: Dict[str, Type[AirDefenseGroupGenerator]] = {
     "Flak18Generator": Flak18Generator,
     "ColdWarFlakGenerator": ColdWarFlakGenerator,
     "EarlyColdWarFlakGenerator": EarlyColdWarFlakGenerator,
+    "LateColdWarFlakGenerator": LateColdWarFlakGenerator,
     "FreyaGenerator": FreyaGenerator,
     "AllyWW2FlakGenerator": AllyWW2FlakGenerator,
     "ZSU57Generator": ZSU57Generator,

@@ -641,3 +641,12 @@ squadrons:
       secondary: air-to-ground
       aircraft:
         - UH-1H Iroquois
+  Red CV:
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - Su-33 Flanker-D
+    - primary: Strike
+      secondary: air-to-ground
+      aircraft:
+        - Su-33 Flanker-D

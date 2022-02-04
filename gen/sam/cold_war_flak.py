@@ -151,3 +151,75 @@ class ColdWarFlakGenerator(AirDefenseGroupGenerator):
     @classmethod
     def range(cls) -> AirDefenseRange:
         return AirDefenseRange.AAA
+
+
+class LateColdWarFlakGenerator(AirDefenseGroupGenerator):
+    """
+    This generator attempt to mimic a late cold-war era flak AAA site. It REQUIRES High-Digit SAMS.
+    The KS-19 100mm is used as the main long range gun, 2 S-60 57mm gun improve mid range firepower, while 2 Zu-23 guns even provide short range protection.
+    The site is also fitted with a SON-9 radar for early detection.
+    """
+
+    name = "Late Cold War Flak Site"
+
+    def generate(self) -> None:
+
+        spacing = random.randint(30, 60)
+        index = 0
+
+        # Long range guns
+        for i in range(3):
+            for j in range(2):
+                index = index + 1
+                self.add_unit(
+                    AirDefence.KS19,
+                    "AAA#" + str(index),
+                    self.position.x + spacing * i + random.randint(1, 5),
+                    self.position.y + spacing * j + random.randint(1, 5),
+                    self.heading,
+                )
+
+        # Medium range guns
+        self.add_unit(
+            AirDefence.S_60_Type59_Artillery,
+            "SHO#1",
+            self.position.x - 40,
+            self.position.y - 40,
+            self.heading.opposite,
+        ),
+        self.add_unit(
+            AirDefence.S_60_Type59_Artillery,
+            "SHO#2",
+            self.position.x + spacing * 2 + 40,
+            self.position.y + spacing + 40,
+            self.heading,
+        ),
+
+        # Short range guns
+        self.add_unit(
+            AirDefence.ZU_23_Emplacement_Closed,
+            "SHO#3",
+            self.position.x - 80,
+            self.position.y - 40,
+            self.heading.opposite,
+        ),
+        self.add_unit(
+            AirDefence.ZU_23_Emplacement_Closed,
+            "SHO#4",
+            self.position.x + spacing * 2 + 80,
+            self.position.y + spacing + 40,
+            self.heading,
+        ),
+
+        # Add a SON-9 Radar for EWR
+        self.add_unit(
+            AirDefence.Fire_Can_radar,
+            "SR#0",
+            self.position.x - 60,
+            self.position.y - 20,
+            self.heading,
+        )
+
+    @classmethod
+    def range(cls) -> AirDefenseRange:
+        return AirDefenseRange.AAA
