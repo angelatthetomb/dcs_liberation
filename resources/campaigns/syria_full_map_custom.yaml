@@ -149,6 +149,9 @@ squadrons:
       secondary: air-to-ground
       aircraft:
         - B-1B Lancer
+    - primary: AEW&C
+      aircraft:
+        - E-2C Hawkeye
   # Akrotiri
   44:
     - primary: Refueling
@@ -224,9 +227,6 @@ squadrons:
       secondary: any
       aircraft:
         - CF-188 Hornet
-    - primary: AEW&C
-      aircraft:
-        - E-2C Hawkeye
   # Gaziantep
   11:
     - primary: CAS
@@ -340,10 +340,6 @@ squadrons:
       secondary: air-to-ground
       aircraft:
         - Mi-28N Havoc
-    - primary: CAS
-      secondary: air-to-ground
-      aircraft:
-        - Ka-50 Hokum
     - primary: Transport
       aircraft:
         - IL-76MD-M
@@ -365,6 +361,10 @@ squadrons:
       secondary: air-to-air
       aircraft:
         - MiG-21MF Fishbed-J
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - Ka-50 Hokum
   #Shayrat
   36:
     - primary: BARCAP

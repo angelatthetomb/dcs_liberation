@@ -1,0 +1,13 @@
+---
+name: 27th Fighter Squadron
+nickname: Fighting Eagles
+country: USA
+role: Air Superiority Fighter
+aircraft: F-22A
+livery: 27th FS Flagship 09-172
+mission_types:
+  - BARCAP
+  - Escort
+  - Intercept
+  - Fighter sweep
+  - TARCAP
