@@ -6,6 +6,7 @@ from gen.sam.airdefensegroupgenerator import (
     AirDefenseRange,
     AirDefenseGroupGenerator,
 )
+from pydcs_extensions.highdigitsams import highdigitsams
 
 
 class EarlyColdWarFlakGenerator(AirDefenseGroupGenerator):
@@ -172,7 +173,7 @@ class LateColdWarFlakGenerator(AirDefenseGroupGenerator):
             for j in range(2):
                 index = index + 1
                 self.add_unit(
-                    AirDefence.KS19,
+                    highdigitsams.AAA_100mm_KS_19,
                     "AAA#" + str(index),
                     self.position.x + spacing * i + random.randint(1, 5),
                     self.position.y + spacing * j + random.randint(1, 5),
@@ -213,7 +214,7 @@ class LateColdWarFlakGenerator(AirDefenseGroupGenerator):
 
         # Add a SON-9 Radar for EWR
         self.add_unit(
-            AirDefence.Fire_Can_radar,
+            highdigitsams.AAA_SON_9_Fire_Can,
             "SR#0",
             self.position.x - 60,
             self.position.y - 20,
