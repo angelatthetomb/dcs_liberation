@@ -32,9 +32,9 @@ fuel:
   combat_ppm: 27.5
   min_safe: 2000
 variants:
+  F/A-18C Hornet (Lot 20): {}
   CF-188 Hornet: {}
   EF-18A+ Hornet: {}
-  F/A-18C Hornet (Lot 20): {}
 radios:
   intra_flight: AN/ARC-210
   inter_flight: AN/ARC-210

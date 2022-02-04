@@ -12,5 +12,5 @@ max_range: 2000
 patrol:
   altitude: 30000
 variants:
-  E-2C Hawkeye: {}
   E-2D Advanced Hawkeye: {}
+  E-2C Hawkeye: {}

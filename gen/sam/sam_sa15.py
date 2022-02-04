@@ -43,4 +43,4 @@ class SA15Generator(AirDefenseGroupGenerator):
 
     @classmethod
     def range(cls) -> AirDefenseRange:
-        return AirDefenseRange.Medium
+        return AirDefenseRange.Short

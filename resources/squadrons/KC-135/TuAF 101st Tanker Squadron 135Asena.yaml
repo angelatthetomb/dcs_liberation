@@ -4,6 +4,6 @@ nickname: Asena
 country: Turkey
 role: Air-to-Air Refueling
 aircraft: KC-135R Asena
-livery: TurAF Standard
+livery: "TurAF Standard"
 mission_types:
   - Refueling

@@ -61,10 +61,10 @@ squadrons:
       secondary: any
       aircraft:
         - F-16C Block 40
-    - primary: BAI
+    - primary: CAS
       secondary: air-to-ground
       aircraft:
-        - A-10C Thunderbolt II (Suite 7)
+        - A-10C Thunderbolt II (Suite 3)
     - primary: BAI
       secondary: air-to-ground
       aircraft:
@@ -72,7 +72,11 @@ squadrons:
     - primary: CAS
       secondary: air-to-ground
       aircraft:
-        - A-10C Thunderbolt II (Suite 3)
+        - A-10C Thunderbolt II (Suite 7)
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - A-10C Thunderbolt II (Suite 7)
     - primary: BARCAP
       secondary: air-to-air
       aircraft:
@@ -147,9 +151,6 @@ squadrons:
         - B-1B Lancer
   # Akrotiri
   44:
-    - primary: AEW&C
-      aircraft:
-        - E-2C Hawkeye
     - primary: Refueling
       aircraft:
         - KC-130
@@ -174,14 +175,6 @@ squadrons:
       aircraft:
         - C.16 Typhoon
     - primary: CAS
-      secondary: any
-      aircraft:
-        - EF-18A+ Hornet
-    - primary: BARCAP
-      secondary: any
-      aircraft:
-        - CF-188 Hornet
-    - primary: CAS
       secondary: air-to-ground
       aircraft:
         - AV-8B Harrier II Night Attack
@@ -203,7 +196,7 @@ squadrons:
       secondary: any
       aircraft:
         - Mirage 2000C
-    - primary: Strike
+    - primary: BARCAP
       secondary: any
       aircraft:
         - Mirage 2000-5 Mk II
@@ -223,6 +216,17 @@ squadrons:
       secondary: any
       aircraft:
         - F-16CM Fighting Falcon (Block 52)
+    - primary: CAS
+      secondary: any
+      aircraft:
+        - EF-18A+ Hornet
+    - primary: BARCAP
+      secondary: any
+      aircraft:
+        - CF-188 Hornet
+    - primary: AEW&C
+      aircraft:
+        - E-2C Hawkeye
   # Gaziantep
   11:
     - primary: CAS
@@ -599,7 +603,7 @@ squadrons:
         - E-3A
     - primary: Refueling
       aircraft:
-        - KC-135 Stratotanker MPRS
+        - KC-135R Stratotanker
         
   Blue CV:
     - primary: BARCAP
@@ -632,7 +636,7 @@ squadrons:
     - primary: CAS
       secondary: air-to-ground
       aircraft:
-        - AH-1W
+        - AH-1W SuperCobra
     - primary: Transport
       secondary: air-to-ground
       aircraft:
