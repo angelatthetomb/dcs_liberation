@@ -842,13 +842,6 @@ class EA_6B(PlaneType):
     pylons = {1, 2, 3, 4, 5}
 
     tasks = [
-        task.Escort,
-        task.Reconnaissance,
-        task.GroundAttack,
-        task.CAS,
-        task.AFAC,
-        task.RunwayAttack,
-        task.AntishipStrike,
         task.SEAD,
     ]
-    task_default = task.GroundAttack
+    task_default = task.SEAD
