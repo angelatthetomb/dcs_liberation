@@ -104,6 +104,7 @@ class NewGameWizard(QtWidgets.QWizard):
         )
         mod_settings = ModSettings(
             a4_skyhawk=self.field("a4_skyhawk"),
+            ea6b=self.field("ea6b"),
             eurofighter=self.field("eurofighter"),
             vsn_f18f=self.field("vsn_f18f"),
             f22_raptor=self.field("f22_raptor"),
@@ -564,6 +565,8 @@ class GeneratorOptions(QtWidgets.QWizardPage):
         modSettingsGroup = QtWidgets.QGroupBox("Mod Settings")
         a4_skyhawk = QtWidgets.QCheckBox()
         self.registerField("a4_skyhawk", a4_skyhawk)
+        ea6b = QtWidgets.QCheckBox()
+        self.registerField("ea6b", ea6b)
         eurofighter = QtWidgets.QCheckBox()
         self.registerField("eurofighter", eurofighter)
         vsn_18f = QtWidgets.QCheckBox()
@@ -613,6 +616,8 @@ class GeneratorOptions(QtWidgets.QWizardPage):
         modLayout.addWidget(rafale, 10, 1)
         modLayout.addWidget(QtWidgets.QLabel("VSN FA-18F"), 11, 0)
         modLayout.addWidget(vsn_18f, 11, 1)
+        modLayout.addWidget(QtWidgets.QLabel("VSN EA-6B"), 12, 0)
+        modLayout.addWidget(ea6b, 12, 1)
         modSettingsGroup.setLayout(modLayout)
 
         mlayout = QVBoxLayout()

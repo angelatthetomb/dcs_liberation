@@ -270,6 +270,7 @@ SEAD_CAPABLE = [
     VSN_FA18F,
     VSN_FA18F_AG,
     FA_18C_hornet,
+    EA_6B,
     Tornado_IDS,
     Eurofighter,
     Rafale_B,

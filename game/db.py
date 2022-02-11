@@ -43,6 +43,7 @@ import pydcs_extensions.highdigitsams.highdigitsams as highdigitsams
 # PATCH pydcs data with MODS
 from game.factions.faction_loader import FactionLoader
 from pydcs_extensions.a4ec.a4ec import A_4E_C
+from pydcs_extensions.ea6b.ea6b import EA_6B
 from pydcs_extensions.eurofighter.eurofighter import Eurofighter
 from pydcs_extensions.f104.f104 import VSN_F104G, VSN_F104S, VSN_F104S_AG
 from pydcs_extensions.f18f.f18f import VSN_FA18F, VSN_FA18F_AG
@@ -53,6 +54,7 @@ from pydcs_extensions.rafale.rafale import Rafale_B, Rafale_C
 from pydcs_extensions.su57.su57 import Su_57
 
 plane_map["A-4E-C"] = A_4E_C
+plane_map["EA-6B"] = EA_6B
 plane_map["Eurofighter"] = Eurofighter
 plane_map["FA18F_hornet"] = VSN_FA18F
 plane_map["FA18F_hornetAG"] = VSN_FA18F_AG
