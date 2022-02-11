@@ -54,10 +54,10 @@ from pydcs_extensions.rafale.rafale import Rafale_B, Rafale_C
 from pydcs_extensions.su57.su57 import Su_57
 
 plane_map["A-4E-C"] = A_4E_C
-plane_map["EA-6B"] = EA_6B
+plane_map["EA_6B"] = EA_6B
 plane_map["Eurofighter"] = Eurofighter
-plane_map["FA18F_hornet"] = VSN_FA18F
-plane_map["FA18F_hornetAG"] = VSN_FA18F_AG
+plane_map["VSN_FA18F"] = VSN_FA18F
+plane_map["VSN_FA18F_AG"] = VSN_FA18F_AG
 plane_map["F-22A"] = F_22A
 plane_map["Su-57"] = Su_57
 plane_map["Hercules"] = Hercules
