@@ -112,6 +112,7 @@ from dcs.unittype import FlyingType
 from game.ato.flighttype import FlightType
 from game.dcs.aircrafttype import AircraftType
 from pydcs_extensions.a4ec.a4ec import A_4E_C
+from pydcs_extensions.ea6b.ea6b import EA_6B
 from pydcs_extensions.eurofighter.eurofighter import Eurofighter
 from pydcs_extensions.f18f.f18f import VSN_FA18F, VSN_FA18F_AG
 from pydcs_extensions.f22a.f22a import F_22A
