@@ -70,6 +70,7 @@ class GeneratorSettings:
 class ModSettings:
     a4_skyhawk: bool = False
     eurofighter: bool = False
+    vsn_f18f: bool = False
     f22_raptor: bool = False
     f104_starfighter: bool = False
     hercules: bool = False

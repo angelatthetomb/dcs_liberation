@@ -113,6 +113,7 @@ from game.ato.flighttype import FlightType
 from game.dcs.aircrafttype import AircraftType
 from pydcs_extensions.a4ec.a4ec import A_4E_C
 from pydcs_extensions.eurofighter.eurofighter import Eurofighter
+from pydcs_extensions.f18f.f18f import VSN_FA18F, VSN_FA18F_AG
 from pydcs_extensions.f22a.f22a import F_22A
 from pydcs_extensions.f104.f104 import VSN_F104G, VSN_F104S, VSN_F104S_AG
 from pydcs_extensions.hercules.hercules import Hercules
@@ -135,6 +136,8 @@ CAP_CAPABLE = [
     F_14B,
     F_14A_135_GR,
     F_14A,
+    VSN_FA18F,
+    VSN_FA18F_AG,
     Rafale_C,
     Su_33,
     J_11A,
@@ -191,6 +194,8 @@ CAS_CAPABLE = [
     Su_25T,
     Su_25,
     F_15E,
+    VSN_FA18F,
+    VSN_FA18F_AG,
     Rafale_B,
     F_16C_50,
     FA_18C_hornet,
@@ -262,6 +267,8 @@ CAS_CAPABLE = [
 SEAD_CAPABLE = [
     JF_17,
     F_16C_50,
+    VSN_FA18F,
+    VSN_FA18F_AG,
     FA_18C_hornet,
     Tornado_IDS,
     Eurofighter,
@@ -290,6 +297,8 @@ DEAD_CAPABLE = [
     F_14B,
     F_14A_135_GR,
     F_15E,
+    VSN_FA18F,
+    VSN_FA18F_AG,
     Rafale_C,
     Rafale_B,
     JAS39Gripen_AG,
@@ -328,6 +337,8 @@ STRIKE_CAPABLE = [
     F_15E,
     AJS37,
     Tornado_GR4,
+    VSN_FA18F,
+    VSN_FA18F_AG,
     F_16C_50,
     FA_18C_hornet,
     Eurofighter,
@@ -389,6 +400,8 @@ ANTISHIP_CAPABLE = [
     Tu_142,
     Tu_22M3,
     H_6J,
+    VSN_FA18F,
+    VSN_FA18F_AG,
     FA_18C_hornet,
     Rafale_B,
     JAS39Gripen_AG,
@@ -426,6 +439,8 @@ RUNWAY_ATTACK_CAPABLE = [
     F_15E,
     AJS37,
     Eurofighter,
+    VSN_FA18F,
+    VSN_FA18F_AG,
     F_16C_50,
     FA_18C_hornet,
     Rafale_B,
