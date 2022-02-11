@@ -4199,7 +4199,7 @@ class VSN_FA18F(PlaneType):
             3,
             Weapons.KAB_1500L___1500kg_Laser_Guided_Bomb,
         )
-        KAB_500Kr___500kg_TV_Guided_Bomb = (3, Weapons.KAB_500Kr___500kg_TV_Guided_Bomb)
+        # KAB_500Kr___500kg_TV_Guided_Bomb = (3, Weapons.KAB_500Kr___500kg_TV_Guided_Bomb)
         # ERRR {F0ED00FC-24D6-4CD7-9EA5-DE4BEE69A5EA}
         LAU_10_pod___4_x_127mm_ZUNI__UnGd_Rkts_Mk71__HE_FRAG = (
             3,
@@ -4290,7 +4290,7 @@ class VSN_FA18F(PlaneType):
             4,
             Weapons.KAB_1500L___1500kg_Laser_Guided_Bomb,
         )
-        KAB_500Kr___500kg_TV_Guided_Bomb = (4, Weapons.KAB_500Kr___500kg_TV_Guided_Bomb)
+        # KAB_500Kr___500kg_TV_Guided_Bomb = (4, Weapons.KAB_500Kr___500kg_TV_Guided_Bomb)
         # ERRR {F0ED00FC-24D6-4CD7-9EA5-DE4BEE69A5EA}
         LAU_10_pod___4_x_127mm_ZUNI__UnGd_Rkts_Mk71__HE_FRAG = (
             4,
@@ -4308,7 +4308,8 @@ class VSN_FA18F(PlaneType):
             4,
             Weapons.LAU_61_pod___19_x_2_75_Hydra__UnGd_Rkts_M156__Wht_Phos,
         )
-        Fuel_Tank_330_gallons_ = (4, Weapons.Fuel_Tank_330_gallons_)
+
+    #    Fuel_Tank_330_gallons_ = (4, Weapons.Fuel_Tank_330_gallons_)
 
     # ERRR {6C0D552F-570B-42ff-9F6D-F10D9C1D4E1C}
 
@@ -4438,7 +4439,7 @@ class VSN_FA18F(PlaneType):
             8,
             Weapons.KAB_1500L___1500kg_Laser_Guided_Bomb,
         )
-        KAB_500Kr___500kg_TV_Guided_Bomb = (8, Weapons.KAB_500Kr___500kg_TV_Guided_Bomb)
+        # KAB_500Kr___500kg_TV_Guided_Bomb = (8, Weapons.KAB_500Kr___500kg_TV_Guided_Bomb)
         # ERRR {F0ED00FC-24D6-4CD7-9EA5-DE4BEE69A5EA}
         LAU_10_pod___4_x_127mm_ZUNI__UnGd_Rkts_Mk71__HE_FRAG = (
             8,
@@ -4533,7 +4534,7 @@ class VSN_FA18F(PlaneType):
             9,
             Weapons.KAB_1500L___1500kg_Laser_Guided_Bomb,
         )
-        KAB_500Kr___500kg_TV_Guided_Bomb = (9, Weapons.KAB_500Kr___500kg_TV_Guided_Bomb)
+        # KAB_500Kr___500kg_TV_Guided_Bomb = (9, Weapons.KAB_500Kr___500kg_TV_Guided_Bomb)
         # ERRR {F0ED00FC-24D6-4CD7-9EA5-DE4BEE69A5EA}
         LAU_10_pod___4_x_127mm_ZUNI__UnGd_Rkts_Mk71__HE_FRAG = (
             9,
