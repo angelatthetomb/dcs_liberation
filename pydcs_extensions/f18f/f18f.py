@@ -4,6 +4,29 @@ from dcs import task
 from dcs.planes import PlaneType
 from dcs.weapons_data import Weapons
 
+from pydcs_extensions.weapon_injector import inject_weapons
+
+
+class F18FWeapons:
+    LAU_7_2_AIM_120B = {
+        "clsid": "{2*AIM-120B}",
+        "name": "LAU-7 2*AIM-120B",
+        "weight": 332,
+    }
+    LAU_7_2_AIM_120C = {
+        "clsid": "{2*AIM-120C}",
+        "name": "LAU-7 2*AIM-120C",
+        "weight": 332,
+    }
+    Fuel_Tank_330_gallons_ = {
+        "clsid": "{VSN_F18F_PTB}",
+        "name": "Fuel Tank 330 gallons",
+        "weight": 1150,
+    }
+
+
+inject_weapons(F18FWeapons)
+
 
 class VSN_FA18F(PlaneType):
     id = "VSN_FA18F"
@@ -4599,7 +4622,7 @@ class VSN_FA18F(PlaneType):
         Smokewinder___yellow = (11, Weapons.Smokewinder___yellow)
         AN_ASQ_T50_TCTS_Pod___ACMI_Pod = (11, Weapons.AN_ASQ_T50_TCTS_Pod___ACMI_Pod)
 
-    pylons: Set[int] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+    pylons = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
 
     tasks = [
         task.CAP,
