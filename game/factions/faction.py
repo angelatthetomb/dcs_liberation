@@ -265,7 +265,7 @@ class Faction:
         if not mod_settings.a4_skyhawk:
             self.remove_aircraft("A-4E-C")
         if not mod_settings.ea6b:
-            self.remove_aircraft("EA-6B")
+            self.remove_aircraft("EA_6B")
         if not mod_settings.eurofighter:
             self.remove_aircraft("Eurofighter")
         if not mod_settings.vsn_f18f:
