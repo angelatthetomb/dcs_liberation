@@ -8920,7 +8920,8 @@ class VSN_FA18F_AG(PlaneType):
             4,
             Weapons.LAU_61_pod___19_x_2_75_Hydra__UnGd_Rkts_M156__Wht_Phos,
         )
-        Fuel_Tank_330_gallons_ = (4, Weapons.Fuel_Tank_330_gallons_)
+
+    #    Fuel_Tank_330_gallons_ = (4, Weapons.Fuel_Tank_330_gallons_)
 
     # ERRR {6C0D552F-570B-42ff-9F6D-F10D9C1D4E1C}
 
