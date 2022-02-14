@@ -15,6 +15,7 @@ role: Attack
 variants:
   AH-1G Tzefa: {}
   AH-1J SeaCobra: {}
+  AH-1S Tzefa: {}
   AH-1W SuperCobra: {}
   AH-1WT SuperCobra: {}
   AH-1Z Viper: {}

@@ -1,0 +1,11 @@
+---
+name: 11th Squadron
+nickname:
+country: Jordan
+role: Close Air Support
+aircraft: C-101CC Aviojet
+livery: Royal jordanian Air Force
+mission_types:
+  - BAI
+  - CAS
+

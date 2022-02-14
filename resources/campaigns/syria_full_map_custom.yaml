@@ -24,7 +24,7 @@ squadrons:
     - primary: Transport
       secondary: any
       aircraft:
-        - C-130
+        - C-130B/E
     - primary: Transport
       secondary: any
       aircraft:
@@ -185,6 +185,10 @@ squadrons:
       secondary: air-to-ground
       aircraft:
         - AV-8B Harrier II Night Attack
+    - primary: Transport
+      secondary: any
+      aircraft:
+        - Hercules C.4
 #Paphos
   46:
     - primary: BAI
@@ -540,6 +544,10 @@ squadrons:
       secondary: air-to-air
       aircraft:
         - F-16A Block 20 MLU
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - C-101CC Aviojet
     - primary: CAS
       secondary: air-to-ground
       aircraft:

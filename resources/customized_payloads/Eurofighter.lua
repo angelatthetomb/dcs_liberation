@@ -2,55 +2,65 @@ local unitPayloads = {
 	["name"] = "Eurofighter",
 	["payloads"] = {
 		[1] = {
-			["name"] = "CAP",
+			["displayName"] = "OCA",
+			["name"] = "OCA",
 			["pylons"] = {
 				[1] = {
 					["CLSID"] = "{irist}",
 					["num"] = 1,
 				},
 				[2] = {
-					["CLSID"] = "{Meteor}",
+					["CLSID"] = "{BRU-42_3*Mk-82AIR}",
 					["num"] = 2,
 				},
 				[3] = {
-					["CLSID"] = "{Meteor}",
+					["CLSID"] = "{EF_FuelTank_1000L}",
 					["num"] = 3,
 				},
 				[4] = {
-					["CLSID"] = "{Meteor}",
-					["num"] = 5,
+					["CLSID"] = "{BRU-42_3*Mk-82AIR}",
+					["num"] = 4,
 				},
 				[5] = {
-					["CLSID"] = "{Meteor}",
-					["num"] = 6,
+					["CLSID"] = "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}",
+					["num"] = 5,
 				},
 				[6] = {
-					["CLSID"] = "{EF_FuelTank_1000L}",
-					["num"] = 7,
+					["CLSID"] = "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}",
+					["num"] = 6,
 				},
 				[7] = {
-					["CLSID"] = "{Meteor}",
-					["num"] = 8,
+					["CLSID"] = "{AAQ-28_LEFT}",
+					["num"] = 7,
 				},
 				[8] = {
-					["CLSID"] = "{Meteor}",
-					["num"] = 9,
+					["CLSID"] = "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}",
+					["num"] = 8,
 				},
 				[9] = {
-					["CLSID"] = "{Meteor}",
-					["num"] = 11,
+					["CLSID"] = "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}",
+					["num"] = 9,
 				},
 				[10] = {
-					["CLSID"] = "{Meteor}",
-					["num"] = 12,
+					["CLSID"] = "{BRU-42_3*Mk-82AIR}",
+					["num"] = 10,
 				},
 				[11] = {
+					["CLSID"] = "{EF_FuelTank_1000L}",
+					["num"] = 11,
+				},
+				[12] = {
+					["CLSID"] = "{BRU-42_3*Mk-82AIR}",
+					["num"] = 12,
+				},
+				[13] = {
 					["CLSID"] = "{irist}",
 					["num"] = 13,
 				},
 			},
 			["tasks"] = {
-				[1] = 11,
+				[1] = 31,
+				[2] = 32,
 			},
 		},
 		[2] = {
@@ -175,6 +185,54 @@ local unitPayloads = {
 			},
 		},
 		[4] = {
+			["name"] = "CAP",
+			["pylons"] = {
+				[1] = {
+					["CLSID"] = "{irist}",
+					["num"] = 1,
+				},
+				[2] = {
+					["CLSID"] = "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}",
+					["num"] = 2,
+				},
+				[3] = {
+					["CLSID"] = "{aim132}",
+					["num"] = 3,
+				},
+				[4] = {
+					["CLSID"] = "{Meteor}",
+					["num"] = 5,
+				},
+				[5] = {
+					["CLSID"] = "{Meteor}",
+					["num"] = 6,
+				},
+				[6] = {
+					["CLSID"] = "{EF_FuelTank_1000L}",
+					["num"] = 7,
+				},
+				[7] = {
+					["CLSID"] = "{Meteor}",
+					["num"] = 8,
+				},
+				[8] = {
+					["CLSID"] = "{Meteor}",
+					["num"] = 9,
+				},
+				[9] = {
+					["CLSID"] = "{aim132}",
+					["num"] = 11,
+				},
+				[10] = {
+					["CLSID"] = "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}",
+					["num"] = 12,
+				},
+			},
+			["tasks"] = {
+				[1] = 11,
+			},
+		},
+		[5] = {
 			["displayName"] = "SEAD",
 			["name"] = "SEAD",
 			["pylons"] = {
@@ -235,7 +293,7 @@ local unitPayloads = {
 				[1] = 32,
 			},
 		},
-		[5] = {
+		[6] = {
 			["displayName"] = "ANTISHIP",
 			["name"] = "ANTISHIP",
 			["pylons"] = {
@@ -285,68 +343,6 @@ local unitPayloads = {
 				},
 				[12] = {
 					["CLSID"] = "{BRU33_2X_GBU-12}",
-					["num"] = 12,
-				},
-				[13] = {
-					["CLSID"] = "{irist}",
-					["num"] = 13,
-				},
-			},
-			["tasks"] = {
-				[1] = 31,
-				[2] = 32,
-			},
-		},
-		[6] = {
-			["displayName"] = "OCA",
-			["name"] = "OCA",
-			["pylons"] = {
-				[1] = {
-					["CLSID"] = "{irist}",
-					["num"] = 1,
-				},
-				[2] = {
-					["CLSID"] = "{BRU-42_3*Mk-82AIR}",
-					["num"] = 2,
-				},
-				[3] = {
-					["CLSID"] = "{EF_FuelTank_1000L}",
-					["num"] = 3,
-				},
-				[4] = {
-					["CLSID"] = "{BRU-42_3*Mk-82AIR}",
-					["num"] = 4,
-				},
-				[5] = {
-					["CLSID"] = "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}",
-					["num"] = 5,
-				},
-				[6] = {
-					["CLSID"] = "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}",
-					["num"] = 6,
-				},
-				[7] = {
-					["CLSID"] = "{AAQ-28_LEFT}",
-					["num"] = 7,
-				},
-				[8] = {
-					["CLSID"] = "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}",
-					["num"] = 8,
-				},
-				[9] = {
-					["CLSID"] = "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}",
-					["num"] = 9,
-				},
-				[10] = {
-					["CLSID"] = "{BRU-42_3*Mk-82AIR}",
-					["num"] = 10,
-				},
-				[11] = {
-					["CLSID"] = "{EF_FuelTank_1000L}",
-					["num"] = 11,
-				},
-				[12] = {
-					["CLSID"] = "{BRU-42_3*Mk-82AIR}",
 					["num"] = 12,
 				},
 				[13] = {

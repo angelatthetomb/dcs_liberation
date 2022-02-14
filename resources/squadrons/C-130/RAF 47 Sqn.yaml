@@ -3,7 +3,7 @@ name: No. 47 Squadron
 nickname: Nili nomen roboris omen
 country: UK
 role: Airlift
-aircraft: C-130
+aircraft: Hercules C.4
 livery: Royal Air Force
 mission_types:
   - Transport

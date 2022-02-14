@@ -2,42 +2,7 @@ local unitPayloads = {
 	["name"] = "C-101CC",
 	["payloads"] = {
 		[1] = {
-			["name"] = "ANTISHIP",
-			["pylons"] = {
-				[1] = {
-					["CLSID"] = "{1461CD18-429A-42A9-A21F-4C621ECD4573}",
-					["num"] = 6,
-				},
-				[2] = {
-					["CLSID"] = "{1461CD18-429A-42A9-A21F-4C621ECD4573}",
-					["num"] = 2,
-				},
-			},
-			["tasks"] = {
-				[1] = 30,
-			},
-		},
-		[2] = {
-			["name"] = "CAP",
-			["pylons"] = {
-				[1] = {
-					["CLSID"] = "{C-101-DEFA553}",
-					["num"] = 4,
-				},
-				[2] = {
-					["CLSID"] = "{FC23864E-3B80-48E3-9C03-4DA8B1D7497B}",
-					["num"] = 1,
-				},
-				[3] = {
-					["CLSID"] = "{FC23864E-3B80-48E3-9C03-4DA8B1D7497B}",
-					["num"] = 7,
-				},
-			},
-			["tasks"] = {
-				[1] = 17,
-			},
-		},
-		[3] = {
+			["displayName"] = "CAS",
 			["name"] = "CAS",
 			["pylons"] = {
 				[1] = {
@@ -71,78 +36,45 @@ local unitPayloads = {
 			},
 			["tasks"] = {
 				[1] = 31,
+				[2] = 32,
 			},
 		},
-		[4] = {
-			["name"] = "STRIKE",
+		[2] = {
+			["displayName"] = "BAI",
+			["name"] = "BAI",
 			["pylons"] = {
 				[1] = {
-					["CLSID"] = "{C-101-DEFA553}",
+					["CLSID"] = "{AN-M3}",
 					["num"] = 4,
 				},
 				[2] = {
-					["CLSID"] = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}",
-					["num"] = 2,
+					["CLSID"] = "BIN_200",
+					["num"] = 3,
 				},
 				[3] = {
-					["CLSID"] = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}",
-					["num"] = 6,
+					["CLSID"] = "BIN_200",
+					["num"] = 5,
 				},
 				[4] = {
+					["CLSID"] = "{BLG66_BELOUGA}",
+					["num"] = 6,
+				},
+				[5] = {
+					["CLSID"] = "{BLG66_BELOUGA}",
+					["num"] = 2,
+				},
+				[6] = {
 					["CLSID"] = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}",
 					["num"] = 7,
 				},
-				[5] = {
+				[7] = {
 					["CLSID"] = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}",
 					["num"] = 1,
-				},
-				[6] = {
-					["CLSID"] = "{FB3CE165-BF07-4979-887C-92B87F13276B}",
-					["num"] = 3,
-				},
-				[7] = {
-					["CLSID"] = "{FB3CE165-BF07-4979-887C-92B87F13276B}",
-					["num"] = 5,
 				},
 			},
 			["tasks"] = {
 				[1] = 31,
-			},
-		},
-		[5] = {
-			["name"] = "SEAD",
-			["pylons"] = {
-				[1] = {
-					["CLSID"] = "{C-101-DEFA553}",
-					["num"] = 4,
-				},
-				[2] = {
-					["CLSID"] = "{FB3CE165-BF07-4979-887C-92B87F13276B}",
-					["num"] = 2,
-				},
-				[3] = {
-					["CLSID"] = "{FB3CE165-BF07-4979-887C-92B87F13276B}",
-					["num"] = 6,
-				},
-				[4] = {
-					["CLSID"] = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}",
-					["num"] = 7,
-				},
-				[5] = {
-					["CLSID"] = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}",
-					["num"] = 1,
-				},
-				[6] = {
-					["CLSID"] = "{FB3CE165-BF07-4979-887C-92B87F13276B}",
-					["num"] = 3,
-				},
-				[7] = {
-					["CLSID"] = "{FB3CE165-BF07-4979-887C-92B87F13276B}",
-					["num"] = 5,
-				},
-			},
-			["tasks"] = {
-				[1] = 31,
+				[2] = 32,
 			},
 		},
 	},
