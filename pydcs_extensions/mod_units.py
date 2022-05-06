@@ -6,6 +6,11 @@ from pydcs_extensions.highdigitsams import highdigitsams
 from pydcs_extensions.jas39.jas39 import JAS39Gripen, JAS39Gripen_AG
 from pydcs_extensions.su57.su57 import Su_57
 import pydcs_extensions.frenchpack.frenchpack as frenchpack
+from pydcs_extensions.uh60l.uh60l import UH_60L, KC130J
+from pydcs_extensions.ea6b import EA_6B
+from pydcs_extensions.f18f import VSN_FA18F
+from pydcs_extensions.rafale import Rafale_B, Rafale_C
+from pydcs_extensions.eurofighter import Eurofighter
 
 MODDED_AIRPLANES = [
     A_4E_C,
@@ -15,8 +20,17 @@ MODDED_AIRPLANES = [
     VSN_F104S,
     VSN_F104S_AG,
     Hercules,
+    KC130J,
     JAS39Gripen,
     JAS39Gripen_AG,
+    EA_6B,
+    VSN_FA18F,
+    Rafale_B,
+    Rafale_C,
+    Eurofighter,
+]
+MODDED_HELICOPTERS = [
+    UH_60L,
 ]
 MODDED_VEHICLES = [
     frenchpack._FIELD_HIDE,

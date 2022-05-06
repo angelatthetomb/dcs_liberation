@@ -121,6 +121,7 @@ from pydcs_extensions.hercules.hercules import Hercules
 from pydcs_extensions.jas39.jas39 import JAS39Gripen, JAS39Gripen_AG
 from pydcs_extensions.rafale.rafale import Rafale_B, Rafale_C
 from pydcs_extensions.su57.su57 import Su_57
+from pydcs_extensions.uh60l.uh60l import UH_60L, KC130J
 
 # All aircraft lists are in priority order. Aircraft higher in the list will be
 # preferred over those lower in the list.
@@ -508,6 +509,7 @@ TRANSPORT_CAPABLE = [
     Yak_40,
     CH_53E,
     CH_47D,
+    UH_60L,
     SH_60B,
     UH_60A,
     UH_1H,
@@ -530,6 +532,7 @@ REFUELING_CAPABALE = [
     KC_135,
     KC135MPRS,
     IL_78M,
+    KC130J,
     KC130,
     S_3B_Tanker,
 ]

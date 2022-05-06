@@ -69,14 +69,11 @@ class GeneratorSettings:
 @dataclass
 class ModSettings:
     a4_skyhawk: bool = False
-    ea6b: bool = False
-    eurofighter: bool = False
-    vsn_f18f: bool = False
     f22_raptor: bool = False
     f104_starfighter: bool = False
     hercules: bool = False
+    uh_60l: bool = False
     jas39_gripen: bool = False
-    rafale: bool = False
     su57_felon: bool = False
     frenchpack: bool = False
     high_digit_sams: bool = False
