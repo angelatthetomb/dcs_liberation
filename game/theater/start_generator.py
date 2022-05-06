@@ -77,6 +77,10 @@ class ModSettings:
     su57_felon: bool = False
     frenchpack: bool = False
     high_digit_sams: bool = False
+    ea6b: bool = False
+    eurofighter: bool = False
+    vsn_f18f: bool = False
+    rafale: bool = False
 
 
 class GameGenerator:
