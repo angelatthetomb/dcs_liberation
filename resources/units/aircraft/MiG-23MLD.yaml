@@ -15,6 +15,10 @@ origin: USSR/Russia
 price: 12
 role: Fighter
 variants:
+  MiG-23MF Flogger-B: {}
   MiG-23ML Flogger-G:
     introduced: 1981
   MiG-23MLD Flogger-K: {}
+  MiG-23MS Flogger-E: {}
+  MiG-23BN Flogger-H: {}
+

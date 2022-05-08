@@ -15,4 +15,5 @@ price: 5
 role: Light Attack
 variants:
   SA 342L Gazelle: {}
+  SA 342K Gazelle: {}
 kneeboard_units: "metric"

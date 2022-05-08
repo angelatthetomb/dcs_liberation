@@ -15,5 +15,6 @@ role: Fighter-Bomber
 max_range: 300
 variants:
   Su-17M4 Fitter-K: {}
+  Su-22M2 Fitter-J: {}
   Su-22M4 Fitter-K:
     introduced: 1983

@@ -4,7 +4,7 @@ description:
   airliner.
 introduced: 1957
 max_group_size: 1
-manufacturer: Beoing
+manufacturer: Boeing
 origin: USA
 price: 25
 role: Tanker
@@ -15,3 +15,5 @@ patrol:
   altitude: 24000
 variants:
   KC-135 Stratotanker: {}
+  KC-135R Stratotanker: {}
+  KC-135R Asena: {}

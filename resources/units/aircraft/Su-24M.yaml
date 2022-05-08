@@ -14,5 +14,6 @@ role: Attack
 max_range: 200
 variants:
   Su-24M Fencer-D: {}
+  Su-24M2 Fencer-D: {}
   Su-24MK Fencer-D:
     introduced: 1988
