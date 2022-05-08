@@ -1,0 +1,124 @@
+{
+  "country": "Combined Joint Task Forces Red",
+  "name": "Syria 2015",
+  "authors": "Ape Man",
+  "description": "<p>Syrian Army with an accurate OOB and supported by a Russian Expeditionary Force.</p>",
+  "locales": [
+    "ru_RU"
+  ],
+  "aircrafts": [
+    "IL-76MD-M",
+	"Ka-50 Hokum",
+    "L-39ZA Albatros",
+    "Mi-24V Hind-E",
+    "Mi-24P Hind-F",
+    "Mi-35 Hind-E",
+    "Mi-8MTV2 Hip",
+    "Mi-8MTV5 Hip",
+	"Mi-28N Havoc",
+	"MiG-21bis Fishbed-N",
+    "MiG-21MF Fishbed-J",
+    "MiG-23MF Flogger-B",
+    "MiG-23ML Flogger-G",
+    "MiG-23MS Flogger-E",
+    "MiG-23BN Flogger-H",
+    "MiG-25PD Foxbat-E",
+    "MiG-25RBT Foxbat-B",
+    "MiG-29SM 9.12B Fulcrum-A",
+    "MiG-29SMT Fulcrum-C",
+    "SA 342K Gazelle",
+    "Su-22M2 Fitter-J",
+	"Su-22M4 Fitter-K",
+    "Su-24MK Fencer-D",
+    "Su-24M2 Fencer-D",
+    "Su-25SM Frogfoot",
+    "Su-27SKM Flanker-B",
+    "Su-27SM Flanker-B Mod. 1",
+    "Su-27SM3 Flanker-B Mod. 3",
+    "Su-30SM Flanker-H",
+	"Su-33 Flanker-D",
+    "Su-34 Fullback",
+	"Tu-22M3 Backfire-C",
+	"Tu-95MS Bear-H",
+    "Tu-160M Blackjack"
+  ],
+  "awacs": [
+    "A-50"
+  ],
+  "tankers": [
+    "IL-78M"
+  ],
+  "frontline_units": [
+	"SAM SA-8 Osa \"Gecko\" TEL",
+    "BMP-1",
+    "BMP-2",
+	"BMP-3",
+    "BRDM-2",
+    "BTR-80",
+    "Cobra",
+    "MT-LB",
+    "PT-76",
+    "T-55A",
+    "T-72B with Kontakt-1 ERA",
+	"T-72B3 model 2011",
+	"T-80UD",
+    "ZSU-57-2 'Sparka'"
+  ],
+  "artillery_units": [
+    "2S1 Gvozdika",
+    "2S9 Nona-S",
+    "BM-21 Grad",
+    "BM-27 Uragan"
+  ],
+  "logistics_units": [
+    "LUV UAZ-469 Jeep",
+    "Truck Ural-375"
+  ],
+  "infantry_units": [
+    "Infantry AK-74 Rus",
+    "MANPADS SA-18 Igla-S \"Grouse\"",
+    "Paratrooper AKS",
+    "Paratrooper RPG-16"
+  ],
+  "preset_groups": [
+    "SA-5/S-200",
+    "SA-2/S-75",
+    "SA-3/S-125",
+    "SA-6",
+    "SA-11",
+    "SA-10/S-300PS",
+    "SA-10B/S-300PS",
+    "SA-17",
+    "Cold-War-Flak",
+    "Silkworm",
+    "Russian Navy"
+  ],
+  "naval_units": [
+    "Corvette 1124.4 Grish",
+    "Corvette 1241.1 Molniya",
+    "Cruiser 1164 Moskva",
+    "Frigate 11540 Neustrashimy",
+    "CV 1143.5 Admiral Kuznetsov"
+  ],
+  "air_defense_units": [
+    "SAM P19 \"Flat Face\" SR (SA-2/3)",
+    "EWR 1L13",
+    "EWR 55G6",
+    "SAM SA-5 S-200 ST-68U \"Tin Shield\" SR",
+    "SAM SA-8 Osa \"Gecko\" TEL",
+    "SA-9 Strela",
+    "SA-13 Gopher (9K35 Strela-10M3)",
+    "SA-19 Grison (2K22 Tunguska)",
+    "AAA ZU-23 Closed Emplacement",
+    "ZU-23 on Ural-375",
+    "ZSU-23-4 Shilka"
+  ],
+    "missiles": [
+    "SSM SS-1C Scud-B"
+  ],
+  "helicopter_carrier_names": [],
+  "requirements": {},
+  "carrier_names": [
+    "Admiral Kuznetsov"
+  ],
+}
