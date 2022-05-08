@@ -1,0 +1,16 @@
+---
+name: 945th Squadron
+nickname: 945th
+country: Syria
+role: Air Superiority Fighter
+aircraft: MiG-21bis Fishbed-N
+livery: "Syria (1)"
+mission_types:
+  - BARCAP
+  - TARCAP
+  - Escort
+  - Intercept
+  - Fighter sweep
+  - TARCAP
+
+#Khalkhalah

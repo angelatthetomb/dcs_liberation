@@ -1,0 +1,19 @@
+---
+name: 698th Squadron
+nickname: 698th
+country: Syria
+role: Air Superiority Fighter
+aircraft: MiG-29SM 9.12B Fulcrum-A
+livery: "Syrian Arab Air Force"
+mission_types:
+  - BARCAP
+  - TARCAP
+  - Escort
+  - Intercept
+  - Fighter sweep
+  - TARCAP
+  - BAI
+  - CAS
+  - Strike
+
+#Sayqal

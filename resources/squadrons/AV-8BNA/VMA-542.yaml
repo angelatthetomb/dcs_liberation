@@ -1,0 +1,21 @@
+---
+name: VMA-542
+nickname: Tigers
+country: USA
+role: V/STOL Attack
+aircraft: AV-8B Harrier II Night Attack
+bases:
+    carrier: false
+    shore: true
+    lha: true
+livery: VMA-542
+mission_types:
+  - Anti-ship
+  - BAI
+  - CAS
+  - DEAD
+  - OCA/Aircraft
+  - OCA/Runway
+  - SEAD
+  - SEAD Escort
+  - Strike

@@ -1,0 +1,9 @@
+---
+name: 222. Filo
+nickname:
+country: Turkey
+role: Airlift
+aircraft: C-130 B/E
+livery: Turkish Air Force
+mission_types:
+  - Transport

@@ -1,0 +1,13 @@
+---
+name: 121st Guards Heavy Bombardment Aviation Regiment
+nickname:
+country: Russia
+role: Supersonic Strategic Bomber
+aircraft: Tu-160M Blackjack
+livery: af standard
+mission_types:
+  - Strike
+  - OCA/Aircraft
+  - OCA/Runway
+  - BAI
+  - DEAD

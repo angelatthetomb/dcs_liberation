@@ -1,0 +1,9 @@
+---
+name: 22nd Air Refueling Wing
+nickname: Ducemus
+country: USA
+role: Air-to-Air Refueling
+aircraft: KC-135 Stratotanker MPRS
+livery: 22nd ARW
+mission_types:
+  - Refueling

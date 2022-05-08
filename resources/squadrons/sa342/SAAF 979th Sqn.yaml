@@ -1,0 +1,12 @@
+---
+name: 979th Squadron
+nickname: 979th
+country: Syria
+role: Anti-Tank Helicopter
+aircraft: SA 342K Gazelle
+livery: "Syria Fictional"
+mission_types:
+  - CAS
+  - BAI
+
+#Tiyas

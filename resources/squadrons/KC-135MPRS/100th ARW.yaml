@@ -1,0 +1,9 @@
+---
+name: 100th Air Refueling Wing
+nickname: Bloody 100th
+country: USA
+role: Air-to-Air Refueling
+aircraft: KC-135 Stratotanker MPRS
+livery: 100th ARW
+mission_types:
+  - Refueling

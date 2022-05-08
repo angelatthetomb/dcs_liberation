@@ -1,0 +1,14 @@
+---
+name: 368th Assault Aviation Regiment
+nickname:
+country: Russia
+role: Close Air Support
+aircraft: Su-25SM Frogfoot
+livery: "'scorpion' demo scheme (native)"
+mission_types:
+  - BAI
+  - CAS
+  - DEAD
+  - OCA/Aircraft
+  - OCA/Runway
+  - Strike

@@ -1,0 +1,10 @@
+---
+name: 16th Army Aviation Brigade
+nickname:
+country: Russia
+role: Transport
+aircraft: Mi-8MTV5 Hip
+livery: RF Army Standard
+mission_types:
+  - Transport
+

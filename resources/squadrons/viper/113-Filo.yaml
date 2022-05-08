@@ -1,0 +1,21 @@
+---
+name: 113. Filo
+nickname: Ceylan
+country: Turkey
+role: Strike Fighter
+aircraft: F-16C Block 40
+livery: THK_191_Filo
+mission_types:
+  - BAI
+  - BARCAP
+  - CAS
+  - DEAD
+  - Escort
+  - Intercept
+  - OCA/Aircraft
+  - OCA/Runway
+  - SEAD
+  - SEAD Escort
+  - Strike
+  - Fighter sweep
+  - TARCAP

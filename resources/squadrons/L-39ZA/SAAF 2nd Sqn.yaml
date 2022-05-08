@@ -1,0 +1,17 @@
+---
+name: 2nd Squadron Det. A
+nickname: 2nd
+country: Syria
+role: Close Air Support
+aircraft: L-39ZA Albatros
+livery: Splinter camo desert
+mission_types:
+  - BAI
+  - CAS
+  - DEAD
+  - OCA/Aircraft
+  - OCA/Runway
+  - Strike
+
+#al-Duhur
+

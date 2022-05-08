@@ -4,7 +4,7 @@ nickname: Thunder
 female_pilot_percentage: 6
 country: Greece
 role: Multirole Fighter
-aircraft: F-16CM Fighting Falcon (Block 50)
+aircraft: F-16CM Fighting Falcon (Block 52)
 livery: HAF_ 330_Thunder
 mission_types:
   - BAI

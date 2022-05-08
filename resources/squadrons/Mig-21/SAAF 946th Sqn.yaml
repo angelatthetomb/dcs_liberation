@@ -1,0 +1,16 @@
+---
+name: 946th Squadron
+nickname: 946th
+country: Syria
+role: Air Superiority Fighter
+aircraft: MiG-21bis Fishbed-N
+livery: "Syria (1)"
+mission_types:
+  - BARCAP
+  - TARCAP
+  - Escort
+  - Intercept
+  - Fighter sweep
+  - TARCAP
+
+#Khalkhalah

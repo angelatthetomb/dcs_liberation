@@ -5,7 +5,7 @@ female_pilot_percentage: 6
 country: UK
 role: Strike Fighter
 aircraft: Tornado GR4
-livery: HAF_341_Arrow
+livery: no. 12 squadron raf lossiemouth ab (morayshire)
 mission_types:
   - BAI
   - CAS

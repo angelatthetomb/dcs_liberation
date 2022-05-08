@@ -1,0 +1,23 @@
+---
+name: 695th Squadron
+nickname: 695th
+country: Syria
+role: Fighter-Bomber
+aircraft: MiG-23BN Flogger-H
+livery: "af standard-3 (worn-out)"
+mission_types:
+  - BAI
+  - CAS
+  - Strike
+  - SEAD
+  - DEAD
+  - OCA/Aircraft
+  - OCA/Runway
+  - BARCAP
+  - TARCAP
+  - Escort
+  - Intercept
+  - Fighter sweep
+  - TARCAP
+
+#Nasiriyah

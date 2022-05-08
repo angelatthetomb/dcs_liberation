@@ -1,0 +1,16 @@
+---
+name: 77th Squadron
+nickname: 77th
+country: Syria
+role: Air Superiority Fighter
+aircraft: MiG-23ML Flogger-G
+livery: "af standard-3 (worn-out)"
+mission_types:
+  - BARCAP
+  - TARCAP
+  - Escort
+  - Intercept
+  - Fighter sweep
+  - TARCAP
+
+#Marj Ruhayil (moved to Palmyra)

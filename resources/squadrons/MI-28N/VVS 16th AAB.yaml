@@ -1,0 +1,11 @@
+---
+name: 16th Army Aviation Brigade
+nickname:
+country: Russia
+role: Attack Helicopter
+aircraft: Mi-28N Havoc
+livery: Standard
+mission_types:
+  - BAI
+  - CAS
+

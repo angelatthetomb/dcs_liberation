@@ -5,7 +5,7 @@ female_pilot_percentage: 7
 country: USA
 role: Strike Fighter
 aircraft: F/A-18C Hornet (Lot 20)
-livery: VMFA-122 high visibility
+livery: VMFA-122
 mission_types:
   - Anti-ship
   - BAI

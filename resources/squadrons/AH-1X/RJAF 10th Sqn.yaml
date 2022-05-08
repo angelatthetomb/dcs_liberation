@@ -1,0 +1,11 @@
+---
+name: 10th Squadron
+nickname:
+country: Jordan
+role: Attack Helicopter
+aircraft: AH-1S Tzefa
+livery: Turkey 2
+mission_types:
+  - CAS
+  - BAI
+

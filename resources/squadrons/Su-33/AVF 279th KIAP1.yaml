@@ -1,0 +1,21 @@
+---
+name: 279th Independent Shipborne Assault Aviation Regiment 1st Squad
+nickname: "Twice Hero of the Soviet Union Boris Safonov"
+country: Russia
+role: Carrier-based Multirole Fighter
+aircraft: Su-33 Flanker-D
+livery: "Navy, 279th kiap, 1st squad"
+mission_types:
+  - BARCAP
+  - TARCAP
+  - Escort
+  - Intercept
+  - Fighter sweep
+  - TARCAP
+  - BAI
+  - CAS
+  - Strike
+  - SEAD
+  - DEAD
+  - OCA/Aircraft
+  - OCA/Runway

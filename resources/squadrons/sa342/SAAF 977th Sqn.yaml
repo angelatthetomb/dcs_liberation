@@ -1,11 +1,13 @@
 ---
 name: 977th Squadron
 nickname: 977th
-female_pilot_percentage: 6
+female_pilot_percentage: 0
 country: Syria
 role: Anti-Tank Helicopter
-aircraft: SA 342L Gazelle
+aircraft: SA 342K Gazelle
 livery: "Syria Fictional"
 mission_types:
   - CAS
   - BAI
+
+#Mezzeh

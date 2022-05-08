@@ -1,0 +1,9 @@
+---
+name: Flotille 4F
+nickname: La quatre
+country: France
+role: AEW&C
+aircraft: E-2C Hawkeye
+livery: "French Navy"
+mission_types:
+  - AEW&C

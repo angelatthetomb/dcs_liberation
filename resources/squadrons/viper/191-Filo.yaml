@@ -4,7 +4,7 @@ nickname: Kobra
 female_pilot_percentage: 6
 country: Turkey
 role: Strike Fighter
-aircraft: F-16CM Fighting Falcon (Block 50)
+aircraft: F-16C Block 40
 livery: THK_191_Filo
 mission_types:
   - BAI

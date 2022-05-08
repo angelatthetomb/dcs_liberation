@@ -1,0 +1,15 @@
+---
+name: No. 9 (Bomber) Squadron
+nickname: 
+country: UK
+role: Strike Fighter
+aircraft: Tornado GR4
+livery: no. 9 squadron raf marham ab (norfolk)
+mission_types:
+  - BAI
+  - CAS
+  - DEAD
+  - OCA/Runway
+  - SEAD
+  - SEAD Escort
+  - Strike

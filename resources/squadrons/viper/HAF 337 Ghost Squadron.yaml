@@ -4,7 +4,7 @@ nickname: Ghost
 female_pilot_percentage: 6
 country: Greece
 role: Multirole Fighter
-aircraft: F-16CM Fighting Falcon (Block 50)
+aircraft: F-16CM Fighting Falcon (Block 52)
 livery: HAF_337_Ghost
 mission_types:
   - BAI

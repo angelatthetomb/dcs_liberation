@@ -1,0 +1,9 @@
+---
+name: 144th Airborne Early Warning Aviation Regiment
+nickname:
+country: Russia
+role: AEW&C
+aircraft: A-50
+livery: RF Air Force new
+mission_types:
+  - AEW&C
