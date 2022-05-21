@@ -3,9 +3,6 @@
   "name": "Syria 2015",
   "authors": "Ape Man",
   "description": "<p>Syrian Army with an accurate OOB and supported by a Russian Expeditionary Force.</p>",
-  "locales": [
-    "ru_RU"
-  ],
   "aircrafts": [
     "IL-76MD-M",
 	"Ka-50 Hokum",
@@ -49,7 +46,6 @@
     "IL-78M"
   ],
   "frontline_units": [
-	"SAM SA-8 Osa \"Gecko\" TEL",
     "BMP-1",
     "BMP-2",
 	"BMP-3",
@@ -121,5 +117,5 @@
   "requirements": {},
   "carrier_names": [
     "Admiral Kuznetsov"
-  ],
+  ]
 }

@@ -7,6 +7,10 @@ from .highdigitsams import *
 from .jas39 import *
 from .su57 import *
 from .uh60l import *
+from .ea6b import *
+from .eurofighter import *
+from .rafale import *
+from .f18f import *
 
 
 def load_mods() -> None:
