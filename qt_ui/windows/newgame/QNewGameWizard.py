@@ -166,6 +166,10 @@ class NewGameWizard(QtWidgets.QWizard):
             su57_felon=self.field("su57_felon"),
             frenchpack=self.field("frenchpack"),
             high_digit_sams=self.field("high_digit_sams"),
+            ea6b=self.field("ea6b"),
+            eurofighter=self.field("eurofighter"),
+            rafale=self.field("rafale"),
+            vsn_f18f=self.field("vsn_f18f"),
         )
 
         blue_faction = self.faction_selection_page.selected_blue_faction
@@ -664,6 +668,14 @@ class GeneratorOptions(QtWidgets.QWizardPage):
         self.registerField("frenchpack", frenchpack)
         high_digit_sams = QtWidgets.QCheckBox()
         self.registerField("high_digit_sams", high_digit_sams)
+        ea6b = QtWidgets.QCheckBox()
+        self.registerField("ea6b", ea6b)
+        eurofighter = QtWidgets.QCheckBox()
+        self.registerField("eurofighter", eurofighter)
+        rafale = QtWidgets.QCheckBox()
+        self.registerField("rafale", rafale)
+        vsn_f18f = QtWidgets.QCheckBox()
+        self.registerField("vsn_f18f", vsn_f18f)
 
         modHelpText = QtWidgets.QLabel(
             "<p>Select the mods you have installed. If your chosen factions support them, you'll be able to use these mods in your campaign.</p>"
@@ -709,6 +721,20 @@ class GeneratorOptions(QtWidgets.QWizardPage):
         modLayout_row += 1
         modLayout.addWidget(QtWidgets.QLabel("High Digit SAMs"), modLayout_row, 0)
         modLayout.addWidget(high_digit_sams, modLayout_row, 1)
+        modLayout_row += 1
+        modLayout.addWidget(QtWidgets.QLabel("VSN EA-6B (AI)"), modLayout_row, 0)
+        modLayout.addWidget(ea6b, modLayout_row, 1)
+        modLayout_row += 1
+        modLayout.addWidget(
+            QtWidgets.QLabel("Cuesta Bros Eurofighter"), modLayout_row, 0
+        )
+        modLayout.addWidget(eurofighter, modLayout_row, 1)
+        modLayout_row += 1
+        modLayout.addWidget(QtWidgets.QLabel("Luchas Rafale"), modLayout_row, 0)
+        modLayout.addWidget(rafale, modLayout_row, 1)
+        modLayout_row += 1
+        modLayout.addWidget(QtWidgets.QLabel("VSN F18F"), modLayout_row, 0)
+        modLayout.addWidget(vsn_f18f, modLayout_row, 1)
         modSettingsGroup.setLayout(modLayout)
 
         mlayout = QVBoxLayout()

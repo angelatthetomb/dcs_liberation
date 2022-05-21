@@ -299,6 +299,10 @@ def create_game(
             su57_felon=False,
             frenchpack=False,
             high_digit_sams=False,
+            ea6b=False,
+            eurofighter=False,
+            rafale=False,
+            vsn_f18f=False,
         ),
     )
     game = generator.generate()

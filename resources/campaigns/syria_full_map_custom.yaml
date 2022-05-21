@@ -1,0 +1,712 @@
+---
+name: Syria - Operation Ape Man
+theater: Syria
+authors: Plob, Ape Man
+description: <p><p>A realistic, grueling, expansive campaign driving for Damascus from the north and south. Test build.</p>
+recommended_player_faction: Bluefor Modern 2015
+recommended_enemy_faction: Syria 2015
+recommended_start_date: 2015-09-05
+miz: syria_full_map_custom.miz
+performance: 3
+version: "10.1"
+squadrons:
+  # Incirlik
+  16:
+    - primary: Refueling
+      aircraft:
+        - 340th Expeditionary Air Refueling Squadron
+        #USAF KC-135MPRS
+    - primary: Refueling
+      aircraft:
+        - KC-135R Asena
+        #TuAF KC-135Asena
+    - primary: AEW&C
+      aircraft:
+        - Flying Squadron 1
+        #NATO E-3A
+    - primary: Transport
+      secondary: any
+      aircraft:
+        - 222. Filo
+        #TuAF C-130B/E
+    - primary: Transport
+      secondary: any
+      aircraft:
+        - C-17A
+    - primary: Strike
+      secondary: any
+      aircraft:
+        - 14th FS
+        #USAF F-16C Block 50
+    - primary: OCA/Runway
+      secondary: any
+      aircraft:
+        - 152nd FS
+        #USAF F-16C Block 50
+    - primary: SEAD
+      secondary: any
+      aircraft:
+        - 174th FS
+        #USAF F-16C Block 50
+    - primary: DEAD
+      secondary: any
+      aircraft:
+        - 480th FS
+        #USAF F-16C Block 50
+    - primary: Strike
+      secondary: any
+      aircraft:
+        - 312th Squadron
+        #RNAF F-16A Block 15 MLU
+    - primary: SEAD
+      secondary: any
+      aircraft:
+        - 113. Filo
+        #TuAF F-16C Block 40
+    - primary: DEAD
+      secondary: any
+      aircraft:
+        - 152. Filo
+                #TuAF F-16C Block 40
+    - primary: OCA/Aircraft
+      secondary: any
+      aircraft:
+        - 191. Filo
+        #TuAF F-16C Block 40
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - A-10C Thunderbolt II (Suite 3)
+        #USAF A-10C S3
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - 74th TFS
+        #USAF A-10C S3
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - 25th FS
+        #USAF A-10C S7
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - 358th FS
+        #USAF A-10C S7
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - 58th FS
+        #USAF F-15C
+    - primary: Fighter sweep
+      secondary: air-to-air
+      aircraft:
+        - 390th FS
+        #USAF F-15C
+    - primary: Fighter sweep
+      secondary: air-to-air
+      aircraft:
+        - 27th Fighter Squadron
+        #USAF F-22A
+    - primary: SEAD
+      secondary: any
+      aircraft:
+        - Jagdgeschwader 71 1 Squadron
+        #Luftwaffe Typhoon
+    - primary: DEAD
+      secondary: any
+      aircraft:
+        - Jagdgeschwader 71 2 Squadron
+        #Luftwaffe Typhoon
+    - primary: Fighter sweep
+      secondary: any
+      aircraft:
+        - Jagdgeschwader 74 1 Squadron
+        #Luftwaffe Typhoon
+    - primary: BARCAP
+      secondary: any
+      aircraft:
+        - Jagdgeschwader 74 2 Squadron
+        #Luftwaffe Typhoon
+    - primary: BARCAP
+      secondary: any
+      aircraft:
+        - Escadron de chasse 3/30
+        #Rafale C
+    - primary: Fighter sweep
+      secondary: any
+      aircraft:
+        - Escadron de chasse 1/7 det. A
+        #Rafale C
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Escadron de chasse 1/7 det. A
+        #Rafale B
+    - primary: Strike
+      secondary: air-to-ground
+      aircraft:
+        - Escadron de chasse 2/4
+        #Rafale B
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - A Company, 1-211th Aviation Regiment
+        #USArmy AH-64D
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - A Company, 1-227th Aviation Regiment
+        #USArmy AH-64D
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - A Company, 1-229th Aviation Regiment
+        #USArmy AH-64D
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - B Company, 1-229th Aviation Battalion
+        #USArmy AH-64D
+    - primary: Strike
+      secondary: any
+      aircraft:
+        - 492nd FS
+        #USAF F-15E
+    - primary: Strike
+      secondary: air-to-ground
+      aircraft:
+        - B-52H Stratofortress
+    - primary: Strike
+      secondary: air-to-ground
+      aircraft:
+        - B-1B Lancer
+    - primary: AEW&C
+      aircraft:
+        - Flotille 4F
+        #French Navy E-2C
+  # Akrotiri
+  44:
+    - primary: Refueling
+      aircraft:
+        - VMGR-352
+        #USMC KC-130
+    - primary: Strike
+      secondary: air-to-ground
+      aircraft:
+        - Tornado GR4
+    - primary: DEAD
+      secondary: air-to-ground
+      aircraft:
+        - Tornado GR4
+    - primary: SEAD
+      seconday: any
+      aircraft:
+        - Eurofighter Typhoon FGR4
+    - primary: Fighter sweep
+      secondary: any
+      aircraft:
+        - Eurofighter Typhoon FGR4
+    - primary: CAS
+      secondary: any
+      aircraft:
+        - C.16 Typhoon
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - AV-8B Harrier II Night Attack
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - AV-8B Harrier II Night Attack
+    - primary: Transport
+      secondary: any
+      aircraft:
+        - No. 47 Squadron
+        #RAF Hercules C.4
+#Paphos
+  46:
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - 338 Squadron
+        # HAF F-4E Peace Icarus 2000 UAP
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - 339 Squadron
+        # HAF F-4E Peace Icarus 2000 UAP
+    - primary: BARCAP
+      secondary: any
+      aircraft:
+        - Escadron de chasse 1/12
+        #French AF M-2000C
+    - primary: BARCAP
+      secondary: any
+      aircraft:
+        - 331 Squadron
+        #HAF M-2000C
+    - primary: Strike
+      secondary: any
+      aircraft:
+        - 347 Squadron
+        #HAF F-16CM Block 52
+    - primary: Strike
+      secondary: any
+      aircraft:
+        - 346 Squadron
+        #HAF F-16CM Block 52
+    - primary: BARCAP
+      secondary: any
+      aircraft:
+        - 336 Squadron
+        #HAF F-16CM Block 52
+    - primary: Strike
+      secondary: any
+      aircraft:
+        - 337 Squadron
+        #HAF F-16CM Block 52
+    - primary: CAS
+      secondary: any
+      aircraft:
+        - 121 Escuadron
+        #SpAF EF-18A+
+    - primary: BARCAP
+      secondary: any
+      aircraft:
+        - 425th Squadron
+        #RCAF CF-188
+  # Gaziantep
+  11:
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - SA 342M Gazelle
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - AH-1WT SuperCobra
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - F-4E 2020 Terminator
+  # Hatay
+  15:
+    - primary: Transport
+      secondary: air-to-ground
+      aircraft:
+        - Mi-8MTV2 Hip
+  #Kuweires
+  31:
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - L-39ZA Albatros
+  # Tabqa
+  37:
+    - primary: Transport
+      secondary: air-to-ground
+      aircraft:
+        - Mi-8MTV2 Hip
+    - primary: BARCAP
+      aircraft:
+        - MiG-23MLD Flogger-K
+  # Abu al-Duhur
+  1:
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - MiG-23MS Flogger-E
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - L-39ZA Albatros
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - SA 342K Gazelle
+    - primary: Transport
+      secondary: air-to-ground
+      aircraft:
+        - Mi-8MTV2 Hip
+    - primary: Transport
+      secondary: air-to-ground
+      aircraft:
+        - Mi-8MTV2 Hip
+  #Hama
+  14:
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - MiG-29SM 9.12B Fulcrum-A
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - MiG-21MF Fishbed-J
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - MiG-21MF Fishbed-J
+  # Bassel Al-Assad
+  21:
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - MiG-29SMT Fulcrum-C
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - Su-27SM3 Flanker-B Mod. 1
+    - primary: Fighter sweep
+      secondary: air-to-air
+      aircraft:
+        - Su-27SM3 Flanker-B Mod. 3
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - Su-30SM Flanker-H
+    - primary: Strike
+      secondary: air-to-ground
+      aircraft:
+        - Su-34 Fullback
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Su-24M2 Fencer-D
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - Su-25SM Frogfoot
+    - primary: Transport
+      secondary: air-to-ground
+      aircraft:
+        - Mi-8MTV5 Hip
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - Mi-24V Hind-E
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-28N Havoc
+    - primary: Transport
+      aircraft:
+        - IL-76MD-M
+  # Al Qusayr
+  3:
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - Su-27SKM Flanker-B
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - MiG-23MLD Flogger-K
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - MiG-23MLD Flogger-K
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - MiG-21MF Fishbed-J
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - Ka-50 Hokum
+  #Shayrat
+  36:
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - MiG-23MF Flogger-B
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Su-22M2 Fitter-J
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - Su-22M4 Fitter-K
+  #Tiyas
+  39:
+    - primary: Intercept
+      secondary: air-to-air
+      aircraft:
+        - MiG-25PD Foxbat-E
+    - primary: Fighter sweep
+      secondary: air-to-air
+      aircraft:
+        - MiG-25RBT Foxbat-B
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - Su-24MK Fencer-D
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Su-22M4 Fitter-K
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - SA 342K Gazelle
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - SA 342K Gazelle
+  # Palmyra
+  28:
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - MiG-23ML Flogger-G
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - SA 342K Gazelle
+  # Rayak
+  32:
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - MiG-23MLD Flogger-K
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - Mi-24P Hind-F
+  #Nasiriyah
+  4:
+    - primary: Strike
+      secondary: air-to-ground
+      aircraft:
+        - MiG-23BN Flogger-H
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - MiG-23BN Flogger-H
+
+  #Al-Dumayr
+  9:
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - MiG-23ML Flogger-G
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Su-22M2 Fitter-J
+    - primary: Transport
+      secondary: air-to-ground
+      aircraft:
+        - Mi-8MTV2 Hip
+  #Sayqal
+  35:
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - MiG-29SM 9.12B Fulcrum-A
+    - primary: Fighter sweep
+      secondary: air-to-air
+      aircraft:
+        - MiG-29SM 9.12B Fulcrum-A
+    - primary: Intercept
+      secondary: air-to-air
+      aircraft:
+        - MiG-29SM 9.12B Fulcrum-A
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - MiG-21bis Fishbed-N
+  # Damascus
+  7:
+    - primary: AEW&C
+      aircraft:
+        - A-50
+    - primary: Refueling
+      aircraft:
+        - IL-78M
+    - primary: Transport
+      aircraft:
+        - IL-76MD-M
+    - primary: Strike
+      secondary: air-to-ground
+      aircraft:
+        - Tu-22M3 Backfire-C
+    - primary: Strike
+      secondary: air-to-ground
+      aircraft:
+        - Tu-95MS Bear-H
+    - primary: Strike
+      secondary: air-to-ground
+      aircraft:
+        - Tu-160M Blackjack
+    - primary: Transport
+      secondary: air-to-ground
+      aircraft:
+        - Mi-8MTV2 Hip
+  #Mezzeh
+  25:
+    - primary: Transport
+      secondary: air-to-ground
+      aircraft:
+        - Mi-8MTV2 Hip
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - SA 342K Gazelle
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - SA 342K Gazelle
+  #Khalkhalah
+  18:
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - MiG-21MF Fishbed-J
+    - primary: Fighter sweep
+      secondary: air-to-air
+      aircraft:
+        - MiG-21MF Fishbed-J
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - MiG-23ML Flogger-G
+  #Tha'lah
+  5:
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - Mi-35 Hind-E
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - Mi-24P Hind-F
+
+  # King Hussein Air College
+  19:
+    - primary: BAI
+      secondary: air-to-air
+      aircraft:
+        - F-16A Block 20 MLU
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - C-101CC Aviojet
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - AH-1S Tzefa
+  # Ramat David
+  30:
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - F-15C Baz-2000
+    - primary: Strike
+      secondary: air-to-air
+      aircraft:
+        - F-15I Raam
+    - primary: Strike
+      secondary: any
+      aircraft:
+        - F-16C Barak
+    - primary: Strike
+      secondary: any
+      aircraft:
+        - F-16C Barak
+    - primary: DEAD
+      secondary: any
+      aircraft:
+        - F-16C Barak
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - AH-64D Saraph
+  #Haifa
+  13:
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - SA 342L Gazelle
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - AH-64D Saraph
+  #H4
+  12:
+    - primary: BAI
+      secondary: air-to-air
+      aircraft:
+        - F-16A Block 20 MLU
+    - primary: Fighter sweep
+      secondary: air-to-air
+      aircraft:
+        - 19th Fighter Squadron
+        #USAF F-22A
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - 493rd FS
+        #USAF F-15C
+    - primary: Fighter sweep
+      secondary: air-to-air
+      aircraft:
+        - 390th FS
+        #USAF F-15C
+    - primary: AEW&C
+      aircraft:
+        - 960th AAC Squadron
+        #USAF E-3A
+    - primary: Refueling
+      aircraft:
+        - KC-135R Stratotanker
+        
+  Blue CV:
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - F/A-18C Hornet (Lot 20)
+    - primary: BARCAP
+      secondary: any
+      aircraft:
+        - F/A-18 Hornet (Lot 20)
+    - primary: Strike
+      secondary: any
+      aircraft:
+        - F/A-18C Hornet (Lot 20)
+    - primary: BAI
+      secondary: any
+      aircraft:
+        - F/A-18F Super Hornet (Lot 24)
+    - primary: SEAD
+      aircraft:
+        - EA-6B Prowler ICAP III
+    - primary: Refueling
+      aircraft:
+        - S-3B Tanker
+    - primary: AEW&C
+      aircraft:
+        - E-2D Advanced Hawkeye
+  Blue LHA:
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - AV-8B Harrier II Night Attack
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - AH-1W SuperCobra
+    - primary: Transport
+      secondary: air-to-ground
+      aircraft:
+        - UH-1H Iroquois
+  Red CV:
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - Su-33 Flanker-D
+    - primary: Strike
+      secondary: air-to-ground
+      aircraft:
+        - Su-33 Flanker-D

@@ -286,6 +286,13 @@ class Faction:
         # aircraft
         if not mod_settings.a4_skyhawk:
             self.remove_aircraft("A-4E-C")
+        if not mod_settings.ea6b:
+            self.remove_aircraft("EA_6B")
+        if not mod_settings.eurofighter:
+            self.remove_aircraft("Eurofighter")
+        if not mod_settings.vsn_f18f:
+            self.remove_aircraft("VSN_FA18F")
+            self.remove_aircraft("VSN_FA18F_AG")
         if not mod_settings.hercules:
             self.remove_aircraft("Hercules")
         if not mod_settings.uh_60l:
@@ -300,6 +307,9 @@ class Faction:
         if not mod_settings.jas39_gripen:
             self.remove_aircraft("JAS39Gripen")
             self.remove_aircraft("JAS39Gripen_AG")
+        if not mod_settings.rafale:
+            self.remove_aircraft("Rafale_B")
+            self.remove_aircraft("Rafale_C")
         if not mod_settings.su57_felon:
             self.remove_aircraft("Su-57")
         # frenchpack
@@ -349,6 +359,12 @@ class Faction:
             self.remove_preset("SA-23/S-300VM")
             self.remove_preset("SA-17")
             self.remove_preset("KS-19")
+            self.remove_preset("HQ-2")
+            self.remove_preset("SA-2/S-75 V-759/5V23")
+            self.remove_preset("SA-3/S-125 V-601P/5V27")
+            self.remove_vehicle("SAM SA-14 Strela-3 manpad")
+            self.remove_vehicle("SAM SA-24 Igla-S manpad")
+            self.remove_vehicle("Polyana-D4M1 C2 node")
 
     def remove_aircraft(self, name: str) -> None:
         for i in self.aircrafts:

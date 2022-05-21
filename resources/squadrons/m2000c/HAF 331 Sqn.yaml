@@ -1,0 +1,19 @@
+---
+name: 331 Squadron
+nickname: Theseus
+female_pilot_percentage: 6
+country: Greece
+role: Fighter
+aircraft: Mirage 2000-5 Mk II
+livery: Polemikh Aeroporia (Greek Air Force)
+mission_types:
+  - BARCAP
+  - Escort
+  - Intercept
+  - Fighter sweep
+  - TARCAP
+  - BAI
+  - CAS
+  - OCA/Aircraft
+  - OCA/Runway
+  - Strike
